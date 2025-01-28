@@ -93,9 +93,28 @@ class MatchScraper(Scraper):
 
         match_df.to_csv("new_matches.csv")
         return None
+    
+    def clean_future_data(self, file) -> None:
+        """
+        Remove chunks of data which are H2H rows of matches which will take place in the future.
+        Saves .csv file to local directory
+        """
 
+        # Read the old unfiltered file and set the "date" column to be a datetime value
+        df = pd.read_csv(file)
+        df["date"] = pd.to_datetime(df["date"])
 
-        
+        # Make a copy of the old df
+        new_df = df.copy()
+        # Set a variable for today's date
+        today = datetime.datetime.today().date()
+
+        # Filter the new_df to only inlclude rows that are from today
+        filtered = new_df[new_df["date"] < pd.Timestamp(today)]
+        filtered.to_csv("new_matches_modified.csv", index=True)
+
+        return
+
 
 
 
@@ -110,4 +129,4 @@ class PlayerScraper(Scraper):
 if __name__ == "__main__":
     scraper = Scraper()
     match_scraper = MatchScraper()
-    print(match_scraper.get_stats())
+    match_scraper.clean_future_data("new_matches.csv")

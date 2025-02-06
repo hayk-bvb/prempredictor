@@ -9,10 +9,6 @@ import pandas as pd
 from io import StringIO
 import random
 
-def load_proxies_from_csv(file_path):
-    """Load proxies from the CSV file."""
-    df = pd.read_csv(file_path)
-    return df['proxy'].tolist()
 
 class Scraper:
     """
@@ -27,10 +23,8 @@ class Scraper:
         self.main_url = "https://fbref.com"
         self.years = list(range(datetime.datetime.now().year, 2021, -1))
         self.all_matches = []
-        self.proxies_file_path = "proxies.csv"
-        self.proxies = load_proxies_from_csv(self.proxies_file_path)
 
-    def get_with_proxies(self, url, proxies, max_retries=5, backoff_factor=1):
+    def get_request(self, url, max_retries=100, backoff_factor=1):
         """
         Make a request to a URL using random proxies to bypass 429 errors.
         
@@ -45,20 +39,7 @@ class Scraper:
         """
         for attempt in range(max_retries):
             try:
-                # Randomly select a proxy from the list
-                proxy = random.choice(proxies)
-                proxy_dict = {"http": proxy}
-
-                user_agents = [
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36",
-                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15",
-                    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36"
-                ]
-
-                headers = {"User-Agent": random.choice(user_agents)}
-                response = requests.get(url, proxies=proxy_dict, headers=headers, timeout=10)
-
-
+                response = requests.get(url, timeout=10)
 
                 # If the request is successful and not a 429 error, return the response
                 if response.status_code != 429:
@@ -94,54 +75,73 @@ class MatchScraper(Scraper):
     def get_shooting_stats(self) -> None:
         # self.populate_cache(self.match_url)
 
-        for year in self.years:
-            # If the cache is empty
-            if not self.cache[self.match_url]:
-                data = self.get_with_proxies(self.match_url, self.proxies)
-            else:
-                data = self.cache[self.match_url]
-
-            soup = BeautifulSoup(data.text, features="lxml")
-            standings_table = soup.select('table.stats_table')[0]
-
-            # Find the a tags in the HTML code
-            links = [l.get("href") for l in standings_table.find_all('a')]
-            links = [l for l in links if '/squads' in l]
-            team_urls = [self.main_url + l for l in links]
-
-            # Assign variable for previous season        
-            previous_season = soup.select("a.prev")[0].get("href")
-            self.match_url = self.main_url + previous_season
-
-            for team_url in team_urls:
-                team_name = team_url.split("/")[-1].replace("-Stats", "").replace("-", " ")
+        try:
+            for year in self.years:
+                # If the cache is empty
                 
+                data = self.get_request(self.match_url)
 
-                team_data = self.get_with_proxies(team_url, self.proxies)
-                print(team_data.status_code)
+                soup = BeautifulSoup(data.text, features="lxml")
+                standings_table = soup.select('table.stats_table')[0]
+
+                # Find the a tags in the HTML code
+                links = [l.get("href") for l in standings_table.find_all('a')]
+                links = [l for l in links if '/squads' in l]
+                team_urls = [self.main_url + l for l in links]
+
+                # Assign variable for previous season        
+                previous_season = soup.select("a.prev")[0].get("href")
+                self.match_url = self.main_url + previous_season
+
+                for team_url in team_urls:
+                    print(team_url)
+                    team_name = team_url.split("/")[-1].replace("-Stats", "").replace("-", " ")
+                    
+
+                    team_data = self.get_request(team_url)
+                    print(team_data.status_code)
 
 
-                soup = BeautifulSoup(team_data.text, features="lxml")
-                links = [l.get("href") for l in soup.find_all('a')]
-                links = [l for l in links if l and 'all_comps/shooting/' in l]
+                    soup = BeautifulSoup(team_data.text, features="lxml")
+                    links = [l.get("href") for l in soup.find_all('a')]
+                    links = [l for l in links if l and 'all_comps/shooting/' in l]
 
-                shooting_data = self.get_with_proxies(self.main_url + links[0], self.proxies)
+                    team_shooting_link = self.main_url + links[0]
 
-                shooting = pd.read_html(StringIO(shooting_data.text), match="Shooting")[0]
+                    # Open file with team log
+                    with open('shooting_stats_team_log.txt', 'r') as f:
+                        team_log = [line.strip() for line in f.readlines()]
 
-                shooting.columns = shooting.columns.droplevel()
+                    if team_name + "#" + str(year) not in team_log:
+                        shooting_data = self.get_request(team_shooting_link)
 
-                shooting["Season"] = year
-                shooting["Team"] = team_name
-                self.all_matches.append(shooting)
-                print(f"Done getting shooting stats{team_name} stats from: {year}")
-                time.sleep(3)
-        
-        shooting_df = pd.concat(self.all_matches)
-        # Make the column names lower case for ease of use
-        shooting_df.columns = [c.lower() for c in shooting_df.columns]
+                    else:
+                        # Go to next team
+                        continue
 
-        shooting_df.to_csv("shooting.csv")
+                    shooting = pd.read_html(StringIO(shooting_data.text), match="Shooting")[0]
+
+                    shooting.columns = shooting.columns.droplevel()
+
+                    shooting["Season"] = year
+                    shooting["Team"] = team_name
+                    self.all_matches.append(shooting)
+                    print(f"Done getting shooting stats {team_name} from: {year}")
+                    with open("shooting_stats_team_log.txt", "a") as f:
+                        f.write(f"{team_name}#{year}\n")
+                    time.sleep(3)
+            
+            shooting_df = pd.concat(self.all_matches)
+            # Make the column names lower case for ease of use
+            shooting_df.columns = [c.lower() for c in shooting_df.columns]
+
+            shooting_df.to_csv("shooting.csv")
+            # If we get a max retries error, then we can log our progress
+        except KeyboardInterrupt:
+            shooting_df = pd.concat(self.all_matches)
+            # Make the column names lower case for ease of use
+            shooting_df.columns = [c.lower() for c in shooting_df.columns]
+            shooting_df.to_csv("shooting.csv")
         return None
 
 
@@ -168,7 +168,6 @@ class MatchScraper(Scraper):
                 team_name = team_url.split("/")[-1].replace("-Stats", "").replace("-", " ")
                 # Get the data for each team_url
                 data = requests.get(team_url)
-                print(data.status_code)
                 matches = pd.read_html(StringIO(data.text), match="Scores & Fixtures")[0]
 
                 soup = BeautifulSoup(data.text, features="lxml")
@@ -205,27 +204,47 @@ class MatchScraper(Scraper):
         match_df.to_csv("new_matches.csv")
         return None
     
-    def clean_future_data(self, file) -> None:
+    def clean_future_data(self, filename, exact_date=None) -> None:
         """
         Remove chunks of data which are H2H rows of matches which will take place in the future.
         Saves .csv file to local directory
         """
 
         # Read the old unfiltered file and set the "date" column to be a datetime value
-        df = pd.read_csv(file)
+        df = pd.read_csv(filename)
         df["date"] = pd.to_datetime(df["date"])
 
         # Make a copy of the old df
         new_df = df.copy()
-        # Set a variable for today's date
-        today = datetime.datetime.today().date()
+        if exact_date:
+            date_string = exact_date
+            today = datetime.strptime(date_string, "%Y-%m-%d")
+        else:
+            # Set a variable for today's date
+            today = datetime.datetime.today().date()
+
 
         # Filter the new_df to only inlclude rows that are from today
         filtered = new_df[new_df["date"] < pd.Timestamp(today)]
-        filtered.to_csv("new_matches_modified.csv", index=True)
+        # Only keep Premier League games
+        filtered = filtered[filtered["comp"] == "Premier League"]
+        filtered.to_csv(f"{filename.split(".")[0]}_modified.csv", index=True)
 
         return
+    
+    def combine_CSVs(self, filename1, filename2, new_filename) -> None:
+        """
+        A helper function used to combine CSVs together and save to another CSV.
+        """
+        # Read the two CSV files
+        df1 = pd.read_csv(filename1)
+        df2 = pd.read_csv(filename2)
 
+        # Concatenate the DataFrames, placing df1 data before df2
+        combined_df = pd.concat([df1, df2], ignore_index=True)
+
+        # Save the combined DataFrame to a new CSV file
+        combined_df.to_csv(f"{new_filename}.csv", index=True)
 
 
 
@@ -240,5 +259,7 @@ class PlayerScraper(Scraper):
 if __name__ == "__main__":
     scraper = Scraper()
     match_scraper = MatchScraper()
-    match_scraper.get_shooting_stats()
-    # match_scraper.clean_future_data("new_matches.csv")
+    # match_scraper.get_shooting_stats()
+    # match_scraper.clean_future_data("temp.csv")
+
+    match_scraper.combine_CSVs("temp_modified.csv", "shooting_modified.csv", "shooting_final")

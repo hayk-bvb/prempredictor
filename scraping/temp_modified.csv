@@ -1,0 +1,312 @@
+,Unnamed: 0,date,time,comp,round,day,venue,result,gf,ga,opponent,gls,sh,sot,sot%,g/sh,g/sot,dist,fk,pk,pkatt,xg,npxg,npxg/sh,g-xg,np:g-xg,match report,season,team
+0,0,2024-08-17,12:30,Premier League,Matchweek 1,Sat,Away,W,2.0,0.0,Ipswich Town,2,18.0,5.0,27.8,0.11,0.4,14.8,0.0,0,0,2.6,2.6,0.15,-0.6,-0.6,Match Report,2025,Liverpool
+1,1,2024-08-25,16:30,Premier League,Matchweek 2,Sun,Home,W,2.0,0.0,Brentford,2,19.0,8.0,42.1,0.11,0.25,13.6,1.0,0,0,2.5,2.5,0.14,-0.5,-0.5,Match Report,2025,Liverpool
+2,2,2024-09-01,16:00,Premier League,Matchweek 3,Sun,Away,W,3.0,0.0,Manchester Utd,3,11.0,3.0,27.3,0.27,1.0,13.4,0.0,0,0,1.8,1.8,0.16,1.2,1.2,Match Report,2025,Liverpool
+3,3,2024-09-14,15:00,Premier League,Matchweek 4,Sat,Home,L,0.0,1.0,Nott'ham Forest,0,14.0,5.0,35.7,0.0,0.0,14.9,0.0,0,0,0.9,0.9,0.07,-0.9,-0.9,Match Report,2025,Liverpool
+5,5,2024-09-21,15:00,Premier League,Matchweek 5,Sat,Home,W,3.0,0.0,Bournemouth,3,19.0,12.0,63.2,0.16,0.25,16.6,0.0,0,0,2.0,2.0,0.11,1.0,1.0,Match Report,2025,Liverpool
+7,7,2024-09-28,17:30,Premier League,Matchweek 6,Sat,Away,W,2.0,1.0,Wolves,2,9.0,5.0,55.6,0.11,0.2,18.0,1.0,1,1,2.5,1.7,0.19,-0.5,-0.7,Match Report,2025,Liverpool
+9,9,2024-10-05,12:30,Premier League,Matchweek 7,Sat,Away,W,1.0,0.0,Crystal Palace,1,16.0,4.0,25.0,0.06,0.25,18.9,0.0,0,0,1.4,1.4,0.09,-0.4,-0.4,Match Report,2025,Liverpool
+10,10,2024-10-20,16:30,Premier League,Matchweek 8,Sun,Home,W,2.0,1.0,Chelsea,2,8.0,4.0,50.0,0.13,0.25,22.7,1.0,1,1,1.9,1.1,0.14,0.1,-0.1,Match Report,2025,Liverpool
+12,12,2024-10-27,16:30,Premier League,Matchweek 9,Sun,Away,D,2.0,2.0,Arsenal,2,9.0,4.0,44.4,0.22,0.5,17.8,0.0,0,0,0.8,0.8,0.09,1.2,1.2,Match Report,2025,Liverpool
+14,14,2024-11-02,15:00,Premier League,Matchweek 10,Sat,Home,W,2.0,1.0,Brighton,2,16.0,8.0,50.0,0.13,0.25,14.0,0.0,0,0,1.6,1.6,0.1,0.4,0.4,Match Report,2025,Liverpool
+16,16,2024-11-09,20:00,Premier League,Matchweek 11,Sat,Home,W,2.0,0.0,Aston Villa,2,14.0,5.0,35.7,0.14,0.4,16.1,0.0,0,0,2.0,2.0,0.14,0.0,0.0,Match Report,2025,Liverpool
+17,17,2024-11-24,14:00,Premier League,Matchweek 12,Sun,Away,W,3.0,2.0,Southampton,3,26.0,10.0,38.5,0.08,0.2,18.2,1.0,1,1,3.1,2.3,0.09,-0.1,-0.3,Match Report,2025,Liverpool
+19,19,2024-12-01,16:00,Premier League,Matchweek 13,Sun,Home,W,2.0,0.0,Manchester City,2,17.0,6.0,35.3,0.06,0.17,17.5,0.0,1,1,3.4,2.6,0.16,-1.4,-1.6,Match Report,2025,Liverpool
+20,20,2024-12-04,19:30,Premier League,Matchweek 14,Wed,Away,D,3.0,3.0,Newcastle Utd,3,16.0,5.0,31.3,0.19,0.6,12.7,0.0,0,0,1.9,1.9,0.12,1.1,1.1,Match Report,2025,Liverpool
+22,22,2024-12-14,15:00,Premier League,Matchweek 16,Sat,Home,D,2.0,2.0,Fulham,2,16.0,4.0,25.0,0.13,0.5,13.9,0.0,0,0,2.1,2.1,0.13,-0.1,-0.1,Match Report,2025,Liverpool
+24,24,2024-12-22,16:30,Premier League,Matchweek 17,Sun,Away,W,6.0,3.0,Tottenham,6,24.0,11.0,45.8,0.25,0.55,13.3,0.0,0,0,5.6,5.6,0.26,0.4,0.4,Match Report,2025,Liverpool
+25,25,2024-12-26,20:00,Premier League,Matchweek 18,Thu,Home,W,3.0,1.0,Leicester City,3,19.0,7.0,36.8,0.16,0.43,15.3,0.0,0,0,2.0,2.0,0.11,1.0,1.0,Match Report,2025,Liverpool
+26,26,2024-12-29,17:15,Premier League,Matchweek 19,Sun,Away,W,5.0,0.0,West Ham,5,22.0,13.0,59.1,0.23,0.38,15.8,0.0,0,0,3.1,3.1,0.14,1.9,1.9,Match Report,2025,Liverpool
+27,27,2025-01-05,16:30,Premier League,Matchweek 20,Sun,Home,D,2.0,2.0,Manchester Utd,2,18.0,5.0,27.8,0.06,0.2,16.9,1.0,1,1,2.7,1.9,0.11,-0.7,-0.9,Match Report,2025,Liverpool
+30,30,2025-01-14,20:00,Premier League,Matchweek 21,Tue,Away,D,1.0,1.0,Nott'ham Forest,1,23.0,6.0,26.1,0.04,0.17,17.0,0.0,0,0,2.0,2.0,0.09,-1.0,-1.0,Match Report,2025,Liverpool
+31,31,2025-01-18,15:00,Premier League,Matchweek 22,Sat,Away,W,2.0,0.0,Brentford,2,37.0,8.0,21.6,0.05,0.25,15.4,0.0,0,0,3.4,3.4,0.09,-1.4,-1.4,Match Report,2025,Liverpool
+33,33,2025-01-25,15:00,Premier League,Matchweek 23,Sat,Home,W,4.0,1.0,Ipswich Town,4,16.0,6.0,37.5,0.25,0.67,17.8,0.0,0,0,2.0,2.0,0.14,2.0,2.0,Match Report,2025,Liverpool
+35,35,2025-02-01,15:00,Premier League,Matchweek 24,Sat,Away,W,2.0,0.0,Bournemouth,2,18.0,6.0,33.3,0.06,0.17,18.5,0.0,1,1,2.5,1.7,0.1,-0.5,-0.7,Match Report,2025,Liverpool
+37,0,2024-08-17,15:00,Premier League,Matchweek 1,Sat,Home,W,2,0,Wolves,2,18.0,6.0,33.3,0.11,0.33,17.3,0.0,0,0,1.2,1.2,0.07,0.8,0.8,Match Report,2025,Arsenal
+38,1,2024-08-24,17:30,Premier League,Matchweek 2,Sat,Away,W,2,0,Aston Villa,2,9.0,4.0,44.4,0.22,0.5,18.8,0.0,0,0,0.9,0.9,0.1,1.1,1.1,Match Report,2025,Arsenal
+39,2,2024-08-31,12:30,Premier League,Matchweek 3,Sat,Home,D,1,1,Brighton,1,11.0,7.0,63.6,0.09,0.14,12.9,0.0,0,0,2.1,2.1,0.2,-1.1,-1.1,Match Report,2025,Arsenal
+40,3,2024-09-15,14:00,Premier League,Matchweek 4,Sun,Away,W,1,0,Tottenham,1,7.0,4.0,57.1,0.14,0.25,12.1,0.0,0,0,0.7,0.7,0.11,0.3,0.3,Match Report,2025,Arsenal
+42,5,2024-09-22,16:30,Premier League,Matchweek 5,Sun,Away,D,2,2,Manchester City,2,5.0,3.0,60.0,0.4,0.67,11.3,0.0,0,0,0.7,0.7,0.13,1.3,1.3,Match Report,2025,Arsenal
+44,7,2024-09-28,15:00,Premier League,Matchweek 6,Sat,Home,W,4,2,Leicester City,3,35.0,16.0,45.7,0.09,0.19,14.1,0.0,0,0,4.4,4.4,0.14,-1.4,-1.4,Match Report,2025,Arsenal
+46,9,2024-10-05,15:00,Premier League,Matchweek 7,Sat,Home,W,3,1,Southampton,3,29.0,6.0,20.7,0.1,0.5,14.6,0.0,0,0,2.8,2.8,0.1,0.2,0.2,Match Report,2025,Arsenal
+47,10,2024-10-19,17:30,Premier League,Matchweek 8,Sat,Away,L,0,2,Bournemouth,0,6.0,1.0,16.7,0.0,0.0,15.1,0.0,0,0,0.7,0.7,0.12,-0.7,-0.7,Match Report,2025,Arsenal
+49,12,2024-10-27,16:30,Premier League,Matchweek 9,Sun,Home,D,2,2,Liverpool,2,9.0,3.0,33.3,0.22,0.67,14.1,0.0,0,0,0.9,0.9,0.1,1.1,1.1,Match Report,2025,Arsenal
+51,14,2024-11-02,12:30,Premier League,Matchweek 10,Sat,Away,L,0,1,Newcastle Utd,0,10.0,0.0,0.0,0.0,,14.9,0.0,0,0,1.1,1.1,0.11,-1.1,-1.1,Match Report,2025,Arsenal
+53,16,2024-11-10,16:30,Premier League,Matchweek 11,Sun,Away,D,1,1,Chelsea,1,13.0,3.0,23.1,0.08,0.33,16.3,0.0,0,0,1.5,1.5,0.12,-0.5,-0.5,Match Report,2025,Arsenal
+54,17,2024-11-23,15:00,Premier League,Matchweek 12,Sat,Home,W,3,0,Nott'ham Forest,3,19.0,6.0,31.6,0.16,0.5,17.7,0.0,0,0,1.2,1.2,0.06,1.8,1.8,Match Report,2025,Arsenal
+56,19,2024-11-30,17:30,Premier League,Matchweek 13,Sat,Away,W,5,2,West Ham,5,14.0,5.0,35.7,0.21,0.6,15.4,1.0,2,2,3.5,2.0,0.14,1.5,1.0,Match Report,2025,Arsenal
+57,20,2024-12-04,20:15,Premier League,Matchweek 14,Wed,Home,W,2,0,Manchester Utd,2,14.0,6.0,42.9,0.14,0.33,11.0,0.0,0,0,2.1,2.1,0.15,-0.1,-0.1,Match Report,2025,Arsenal
+58,21,2024-12-08,14:00,Premier League,Matchweek 15,Sun,Away,D,1,1,Fulham,1,12.0,4.0,33.3,0.08,0.25,12.2,0.0,0,0,1.8,1.8,0.17,-0.8,-0.8,Match Report,2025,Arsenal
+60,23,2024-12-14,15:00,Premier League,Matchweek 16,Sat,Home,D,0,0,Everton,0,13.0,5.0,38.5,0.0,0.0,13.0,0.0,0,0,1.2,1.2,0.09,-1.2,-1.2,Match Report,2025,Arsenal
+62,25,2024-12-21,17:30,Premier League,Matchweek 17,Sat,Away,W,5,1,Crystal Palace,5,14.0,6.0,42.9,0.36,0.83,11.5,0.0,0,0,2.5,2.5,0.21,2.5,2.5,Match Report,2025,Arsenal
+63,26,2024-12-27,20:15,Premier League,Matchweek 18,Fri,Home,W,1,0,Ipswich Town,1,13.0,5.0,38.5,0.08,0.2,15.7,1.0,0,0,1.8,1.8,0.14,-0.8,-0.8,Match Report,2025,Arsenal
+64,27,2025-01-01,17:30,Premier League,Matchweek 19,Wed,Away,W,3,1,Brentford,3,14.0,4.0,28.6,0.21,0.75,14.7,0.0,0,0,1.9,1.9,0.14,1.1,1.1,Match Report,2025,Arsenal
+65,28,2025-01-04,17:30,Premier League,Matchweek 20,Sat,Away,D,1,1,Brighton,1,9.0,3.0,33.3,0.11,0.33,15.3,0.0,0,0,0.9,0.9,0.1,0.1,0.1,Match Report,2025,Arsenal
+68,31,2025-01-15,20:00,Premier League,Matchweek 21,Wed,Home,W,2,1,Tottenham,1,14.0,4.0,28.6,0.07,0.25,15.2,0.0,0,0,1.4,1.4,0.1,-0.4,-0.4,Match Report,2025,Arsenal
+69,32,2025-01-18,17:30,Premier League,Matchweek 22,Sat,Home,D,2,2,Aston Villa,2,18.0,6.0,33.3,0.11,0.33,15.5,0.0,0,0,1.3,1.3,0.07,0.7,0.7,Match Report,2025,Arsenal
+71,34,2025-01-25,15:00,Premier League,Matchweek 23,Sat,Away,W,1,0,Wolves,1,9.0,3.0,33.3,0.11,0.33,14.8,1.0,0,0,1.0,1.0,0.11,0.0,0.0,Match Report,2025,Arsenal
+73,36,2025-02-02,16:30,Premier League,Matchweek 24,Sun,Home,W,5,1,Manchester City,5,12.0,7.0,58.3,0.42,0.71,15.8,0.0,0,0,1.0,1.0,0.08,4.0,4.0,Match Report,2025,Arsenal
+76,0,2024-08-17,15:00,Premier League,Matchweek 1,Sat,Home,D,1,1,Bournemouth,1,14.0,8.0,57.1,0.07,0.13,19.2,0.0,0,0,1.3,1.3,0.1,-0.3,-0.3,Match Report,2025,Nottingham Forest
+77,1,2024-08-24,15:00,Premier League,Matchweek 2,Sat,Away,W,1,0,Southampton,1,23.0,8.0,34.8,0.04,0.13,17.2,0.0,0,0,2.2,2.2,0.11,-1.2,-1.2,Match Report,2025,Nottingham Forest
+79,3,2024-08-31,15:00,Premier League,Matchweek 3,Sat,Home,D,1,1,Wolves,1,16.0,5.0,31.3,0.06,0.2,14.6,1.0,0,0,1.0,1.0,0.06,0.0,0.0,Match Report,2025,Nottingham Forest
+80,4,2024-09-14,15:00,Premier League,Matchweek 4,Sat,Away,W,1,0,Liverpool,1,5.0,3.0,60.0,0.2,0.33,18.6,0.0,0,0,0.4,0.4,0.09,0.6,0.6,Match Report,2025,Nottingham Forest
+81,5,2024-09-22,14:00,Premier League,Matchweek 5,Sun,Away,D,2,2,Brighton,2,3.0,2.0,66.7,0.33,0.5,17.4,0.0,1,1,1.4,0.6,0.21,0.6,0.4,Match Report,2025,Nottingham Forest
+82,6,2024-09-28,15:00,Premier League,Matchweek 6,Sat,Home,L,0,1,Fulham,0,11.0,1.0,9.1,0.0,0.0,19.3,0.0,0,0,0.8,0.8,0.07,-0.8,-0.8,Match Report,2025,Nottingham Forest
+83,7,2024-10-06,14:00,Premier League,Matchweek 7,Sun,Away,D,1,1,Chelsea,1,16.0,9.0,56.3,0.06,0.11,20.2,2.0,0,0,0.9,0.9,0.05,0.1,0.1,Match Report,2025,Nottingham Forest
+84,8,2024-10-21,20:00,Premier League,Matchweek 8,Mon,Home,W,1,0,Crystal Palace,1,20.0,6.0,30.0,0.05,0.17,18.0,0.0,0,0,1.7,1.7,0.09,-0.7,-0.7,Match Report,2025,Nottingham Forest
+85,9,2024-10-25,20:00,Premier League,Matchweek 9,Fri,Away,W,3,1,Leicester City,3,20.0,5.0,25.0,0.15,0.6,21.6,1.0,0,0,1.7,1.7,0.09,1.3,1.3,Match Report,2025,Nottingham Forest
+86,10,2024-11-02,15:00,Premier League,Matchweek 10,Sat,Home,W,3,0,West Ham,3,19.0,6.0,31.6,0.16,0.5,18.7,1.0,0,0,2.2,2.2,0.11,0.8,0.8,Match Report,2025,Nottingham Forest
+87,11,2024-11-10,14:00,Premier League,Matchweek 11,Sun,Home,L,1,3,Newcastle Utd,1,9.0,3.0,33.3,0.11,0.33,16.4,0.0,0,0,0.6,0.6,0.06,0.4,0.4,Match Report,2025,Nottingham Forest
+88,12,2024-11-23,15:00,Premier League,Matchweek 12,Sat,Away,L,0,3,Arsenal,0,7.0,0.0,0.0,0.0,,16.3,1.0,0,0,0.3,0.3,0.05,-0.3,-0.3,Match Report,2025,Nottingham Forest
+89,13,2024-11-30,15:00,Premier League,Matchweek 13,Sat,Home,W,1,0,Ipswich Town,1,11.0,4.0,36.4,0.0,0.0,16.9,1.0,1,1,1.6,0.9,0.08,-0.6,-0.9,Match Report,2025,Nottingham Forest
+90,14,2024-12-04,19:30,Premier League,Matchweek 14,Wed,Away,L,0,3,Manchester City,0,12.0,3.0,25.0,0.0,0.0,16.6,0.0,0,0,1.0,1.0,0.09,-1.0,-1.0,Match Report,2025,Nottingham Forest
+91,15,2024-12-07,17:30,Premier League,Matchweek 15,Sat,Away,W,3,2,Manchester Utd,3,11.0,3.0,27.3,0.27,1.0,16.3,0.0,0,0,0.8,0.8,0.08,2.2,2.2,Match Report,2025,Nottingham Forest
+92,16,2024-12-14,17:30,Premier League,Matchweek 16,Sat,Home,W,2,1,Aston Villa,2,17.0,6.0,35.3,0.12,0.33,15.2,0.0,0,0,1.7,1.7,0.1,0.3,0.3,Match Report,2025,Nottingham Forest
+93,17,2024-12-21,15:00,Premier League,Matchweek 17,Sat,Away,W,2,0,Brentford,2,10.0,6.0,60.0,0.2,0.33,17.4,0.0,0,0,0.9,0.9,0.09,1.1,1.1,Match Report,2025,Nottingham Forest
+94,18,2024-12-26,15:00,Premier League,Matchweek 18,Thu,Home,W,1,0,Tottenham,1,10.0,3.0,30.0,0.1,0.33,15.5,0.0,0,0,1.1,1.1,0.11,-0.1,-0.1,Match Report,2025,Nottingham Forest
+95,19,2024-12-29,15:00,Premier League,Matchweek 19,Sun,Away,W,2,0,Everton,2,11.0,7.0,63.6,0.18,0.29,17.4,0.0,0,0,1.5,1.5,0.15,0.5,0.5,Match Report,2025,Nottingham Forest
+96,20,2025-01-06,20:00,Premier League,Matchweek 20,Mon,Away,W,3,0,Wolves,3,11.0,3.0,27.3,0.27,1.0,16.2,1.0,0,0,2.1,2.1,0.19,0.9,0.9,Match Report,2025,Nottingham Forest
+98,22,2025-01-14,20:00,Premier League,Matchweek 21,Tue,Home,D,1,1,Liverpool,1,6.0,3.0,50.0,0.17,0.33,26.8,1.0,0,0,0.3,0.3,0.05,0.7,0.7,Match Report,2025,Nottingham Forest
+99,23,2025-01-19,14:00,Premier League,Matchweek 22,Sun,Home,W,3,2,Southampton,3,14.0,4.0,28.6,0.21,0.75,16.0,1.0,0,0,1.8,1.8,0.15,1.2,1.2,Match Report,2025,Nottingham Forest
+100,24,2025-01-25,15:00,Premier League,Matchweek 23,Sat,Away,L,0,5,Bournemouth,0,18.0,4.0,22.2,0.0,0.0,18.0,2.0,0,0,1.0,1.0,0.05,-1.0,-1.0,Match Report,2025,Nottingham Forest
+101,25,2025-02-01,12:30,Premier League,Matchweek 24,Sat,Home,W,7,0,Brighton,6,13.0,8.0,61.5,0.38,0.63,13.4,0.0,1,1,3.3,2.5,0.2,2.7,2.5,Match Report,2025,Nottingham Forest
+103,0,2024-08-18,16:30,Premier League,Matchweek 1,Sun,Home,L,0.0,2.0,Manchester City,0,10.0,3.0,30.0,0.0,0.0,17.1,0.0,0,0,1.0,1.0,0.1,-1.0,-1.0,Match Report,2025,Chelsea
+105,2,2024-08-25,14:00,Premier League,Matchweek 2,Sun,Away,W,6.0,2.0,Wolves,6,14.0,8.0,57.1,0.43,0.75,15.4,1.0,0,0,1.6,1.6,0.12,4.4,4.4,Match Report,2025,Chelsea
+107,4,2024-09-01,13:30,Premier League,Matchweek 3,Sun,Home,D,1.0,1.0,Crystal Palace,1,13.0,7.0,53.8,0.08,0.14,15.9,1.0,0,0,2.4,2.4,0.18,-1.4,-1.4,Match Report,2025,Chelsea
+108,5,2024-09-14,20:00,Premier League,Matchweek 4,Sat,Away,W,1.0,0.0,Bournemouth,1,10.0,3.0,30.0,0.1,0.33,18.2,0.0,0,0,0.8,0.8,0.08,0.2,0.2,Match Report,2025,Chelsea
+109,6,2024-09-21,12:30,Premier League,Matchweek 5,Sat,Away,W,3.0,0.0,West Ham,3,12.0,5.0,41.7,0.25,0.6,15.0,0.0,0,0,2.2,2.2,0.18,0.8,0.8,Match Report,2025,Chelsea
+111,8,2024-09-28,15:00,Premier League,Matchweek 6,Sat,Home,W,4.0,2.0,Brighton,4,14.0,5.0,35.7,0.21,0.6,15.7,1.0,1,1,4.2,3.4,0.24,-0.2,-0.4,Match Report,2025,Chelsea
+113,10,2024-10-06,14:00,Premier League,Matchweek 7,Sun,Home,D,1.0,1.0,Nott'ham Forest,1,22.0,8.0,36.4,0.05,0.13,17.2,0.0,0,0,2.3,2.3,0.11,-1.3,-1.3,Match Report,2025,Chelsea
+114,11,2024-10-20,16:30,Premier League,Matchweek 8,Sun,Away,L,1.0,2.0,Liverpool,1,12.0,2.0,16.7,0.08,0.5,16.1,1.0,0,0,1.0,1.0,0.08,0.0,0.0,Match Report,2025,Chelsea
+116,13,2024-10-27,14:00,Premier League,Matchweek 9,Sun,Home,W,2.0,1.0,Newcastle Utd,2,17.0,7.0,41.2,0.12,0.29,16.7,0.0,0,0,1.6,1.6,0.09,0.4,0.4,Match Report,2025,Chelsea
+118,15,2024-11-03,16:30,Premier League,Matchweek 10,Sun,Away,D,1.0,1.0,Manchester Utd,1,12.0,3.0,25.0,0.08,0.33,16.0,0.0,0,0,1.1,1.1,0.09,-0.1,-0.1,Match Report,2025,Chelsea
+120,17,2024-11-10,16:30,Premier League,Matchweek 11,Sun,Home,D,1.0,1.0,Arsenal,1,17.0,3.0,17.6,0.06,0.33,20.8,3.0,0,0,1.5,1.5,0.09,-0.5,-0.5,Match Report,2025,Chelsea
+121,18,2024-11-23,12:30,Premier League,Matchweek 12,Sat,Away,W,2.0,1.0,Leicester City,2,16.0,6.0,37.5,0.13,0.33,14.2,0.0,0,0,2.7,2.7,0.18,-0.7,-0.7,Match Report,2025,Chelsea
+123,20,2024-12-01,13:30,Premier League,Matchweek 13,Sun,Home,W,3.0,0.0,Aston Villa,3,17.0,8.0,47.1,0.18,0.38,15.8,0.0,0,0,1.6,1.6,0.1,1.4,1.4,Match Report,2025,Chelsea
+124,21,2024-12-04,19:30,Premier League,Matchweek 14,Wed,Away,W,5.0,1.0,Southampton,5,26.0,11.0,42.3,0.19,0.45,12.6,1.0,0,0,5.2,5.2,0.21,-0.2,-0.2,Match Report,2025,Chelsea
+125,22,2024-12-08,16:30,Premier League,Matchweek 15,Sun,Away,W,4.0,3.0,Tottenham,4,15.0,6.0,40.0,0.13,0.33,17.9,0.0,2,2,2.8,1.2,0.08,1.2,0.8,Match Report,2025,Chelsea
+127,24,2024-12-15,19:00,Premier League,Matchweek 16,Sun,Home,W,2.0,1.0,Brentford,2,26.0,8.0,30.8,0.08,0.25,16.2,0.0,0,0,2.2,2.2,0.09,-0.2,-0.2,Match Report,2025,Chelsea
+129,26,2024-12-22,14:00,Premier League,Matchweek 17,Sun,Away,D,0.0,0.0,Everton,0,12.0,4.0,33.3,0.0,0.0,16.8,2.0,0,0,1.2,1.2,0.11,-1.2,-1.2,Match Report,2025,Chelsea
+130,27,2024-12-26,15:00,Premier League,Matchweek 18,Thu,Home,L,1.0,2.0,Fulham,1,12.0,8.0,66.7,0.08,0.13,18.7,1.0,0,0,1.1,1.1,0.09,-0.1,-0.1,Match Report,2025,Chelsea
+131,28,2024-12-30,19:45,Premier League,Matchweek 19,Mon,Away,L,0.0,2.0,Ipswich Town,0,20.0,4.0,20.0,0.0,0.0,17.1,0.0,0,0,2.0,2.0,0.1,-2.0,-2.0,Match Report,2025,Chelsea
+132,29,2025-01-04,15:00,Premier League,Matchweek 20,Sat,Away,D,1.0,1.0,Crystal Palace,1,15.0,1.0,6.7,0.07,1.0,16.2,0.0,0,0,1.2,1.2,0.08,-0.2,-0.2,Match Report,2025,Chelsea
+134,31,2025-01-14,19:30,Premier League,Matchweek 21,Tue,Home,D,2.0,2.0,Bournemouth,2,26.0,10.0,38.5,0.08,0.2,16.6,2.0,0,0,2.5,2.5,0.1,-0.5,-0.5,Match Report,2025,Chelsea
+135,32,2025-01-20,20:00,Premier League,Matchweek 22,Mon,Home,W,3.0,1.0,Wolves,3,19.0,6.0,31.6,0.16,0.5,14.0,0.0,0,0,3.1,3.1,0.17,-0.1,-0.1,Match Report,2025,Chelsea
+136,33,2025-01-25,17:30,Premier League,Matchweek 23,Sat,Away,L,1.0,3.0,Manchester City,1,10.0,4.0,40.0,0.1,0.25,16.5,0.0,0,0,1.8,1.8,0.18,-0.8,-0.8,Match Report,2025,Chelsea
+137,34,2025-02-03,20:00,Premier League,Matchweek 24,Mon,Home,W,2.0,1.0,West Ham,1,22.0,3.0,13.6,0.05,0.33,17.0,1.0,0,0,1.6,1.6,0.08,-0.6,-0.6,Match Report,2025,Chelsea
+140,1,2024-08-18,16:30,Premier League,Matchweek 1,Sun,Away,W,2,0,Chelsea,2,11.0,5.0,45.5,0.18,0.4,19.1,0.0,0,0,0.8,0.8,0.07,1.2,1.2,Match Report,2025,Manchester City
+141,2,2024-08-24,15:00,Premier League,Matchweek 2,Sat,Home,W,4,1,Ipswich Town,4,13.0,4.0,30.8,0.23,0.75,17.8,1.0,1,1,3.3,2.6,0.2,0.7,0.4,Match Report,2025,Manchester City
+142,3,2024-08-31,17:30,Premier League,Matchweek 3,Sat,Away,W,3,1,West Ham,3,23.0,8.0,34.8,0.13,0.38,15.0,1.0,0,0,3.0,3.0,0.13,0.0,0.0,Match Report,2025,Manchester City
+143,4,2024-09-14,15:00,Premier League,Matchweek 4,Sat,Home,W,2,1,Brentford,2,18.0,7.0,38.9,0.11,0.29,17.2,0.0,0,0,2.1,2.1,0.12,-0.1,-0.1,Match Report,2025,Manchester City
+145,6,2024-09-22,16:30,Premier League,Matchweek 5,Sun,Home,D,2,2,Arsenal,2,33.0,11.0,33.3,0.06,0.18,20.2,1.0,0,0,2.1,2.1,0.07,-0.1,-0.1,Match Report,2025,Manchester City
+147,8,2024-09-28,12:30,Premier League,Matchweek 6,Sat,Away,D,1,1,Newcastle Utd,1,16.0,6.0,37.5,0.06,0.17,17.6,0.0,0,0,0.9,0.9,0.06,0.1,0.1,Match Report,2025,Manchester City
+149,10,2024-10-05,15:00,Premier League,Matchweek 7,Sat,Home,W,3,2,Fulham,3,20.0,7.0,35.0,0.15,0.43,17.6,1.0,0,0,1.6,1.6,0.08,1.4,1.4,Match Report,2025,Manchester City
+150,11,2024-10-20,14:00,Premier League,Matchweek 8,Sun,Away,W,2,1,Wolves,2,22.0,7.0,31.8,0.09,0.29,18.3,2.0,0,0,1.6,1.6,0.07,0.4,0.4,Match Report,2025,Manchester City
+152,13,2024-10-26,15:00,Premier League,Matchweek 9,Sat,Home,W,1,0,Southampton,1,22.0,7.0,31.8,0.05,0.14,16.6,0.0,0,0,2.9,2.9,0.13,-1.9,-1.9,Match Report,2025,Manchester City
+154,15,2024-11-02,15:00,Premier League,Matchweek 10,Sat,Away,L,1,2,Bournemouth,1,18.0,4.0,22.2,0.06,0.25,14.5,0.0,0,0,1.6,1.6,0.09,-0.6,-0.6,Match Report,2025,Manchester City
+156,17,2024-11-09,17:30,Premier League,Matchweek 11,Sat,Away,L,1,2,Brighton,1,15.0,6.0,40.0,0.07,0.17,14.1,0.0,0,0,2.1,2.1,0.18,-1.1,-1.1,Match Report,2025,Manchester City
+157,18,2024-11-23,17:30,Premier League,Matchweek 12,Sat,Home,L,0,4,Tottenham,0,23.0,5.0,21.7,0.0,0.0,14.4,0.0,0,0,2.1,2.1,0.09,-2.1,-2.1,Match Report,2025,Manchester City
+159,20,2024-12-01,16:00,Premier League,Matchweek 13,Sun,Away,L,0,2,Liverpool,0,8.0,2.0,25.0,0.0,0.0,16.2,0.0,0,0,0.8,0.8,0.1,-0.8,-0.8,Match Report,2025,Manchester City
+160,21,2024-12-04,19:30,Premier League,Matchweek 14,Wed,Home,W,3,0,Nott'ham Forest,3,17.0,6.0,35.3,0.18,0.5,15.2,1.0,0,0,2.4,2.4,0.14,0.6,0.6,Match Report,2025,Manchester City
+161,22,2024-12-07,15:00,Premier League,Matchweek 15,Sat,Away,D,2,2,Crystal Palace,2,12.0,4.0,33.3,0.17,0.5,15.1,0.0,0,0,1.4,1.4,0.12,0.6,0.6,Match Report,2025,Manchester City
+163,24,2024-12-15,16:30,Premier League,Matchweek 16,Sun,Home,L,1,2,Manchester Utd,1,10.0,3.0,30.0,0.1,0.33,18.7,0.0,0,0,0.9,0.9,0.1,0.1,0.1,Match Report,2025,Manchester City
+164,25,2024-12-21,12:30,Premier League,Matchweek 17,Sat,Away,L,1,2,Aston Villa,1,12.0,6.0,50.0,0.08,0.17,18.4,0.0,0,0,1.0,1.0,0.09,0.0,0.0,Match Report,2025,Manchester City
+165,26,2024-12-26,12:30,Premier League,Matchweek 18,Thu,Home,D,1,1,Everton,1,23.0,4.0,17.4,0.04,0.25,17.2,1.0,0,1,2.1,1.2,0.05,-1.1,-0.2,Match Report,2025,Manchester City
+166,27,2024-12-29,14:30,Premier League,Matchweek 19,Sun,Away,W,2,0,Leicester City,2,14.0,5.0,35.7,0.14,0.4,18.3,1.0,0,0,1.3,1.3,0.09,0.7,0.7,Match Report,2025,Manchester City
+167,28,2025-01-04,15:00,Premier League,Matchweek 20,Sat,Home,W,4,1,West Ham,3,10.0,7.0,70.0,0.3,0.43,16.6,0.0,0,0,1.9,1.9,0.19,1.1,1.1,Match Report,2025,Manchester City
+169,30,2025-01-14,19:30,Premier League,Matchweek 21,Tue,Away,D,2,2,Brentford,2,21.0,8.0,38.1,0.1,0.25,15.1,0.0,0,0,2.2,2.2,0.11,-0.2,-0.2,Match Report,2025,Manchester City
+170,31,2025-01-19,16:30,Premier League,Matchweek 22,Sun,Away,W,6,0,Ipswich Town,6,17.0,9.0,52.9,0.35,0.67,14.9,0.0,0,0,3.0,3.0,0.18,3.0,3.0,Match Report,2025,Manchester City
+172,33,2025-01-25,17:30,Premier League,Matchweek 23,Sat,Home,W,3,1,Chelsea,3,15.0,6.0,40.0,0.2,0.5,17.1,1.0,0,0,2.2,2.2,0.17,0.8,0.8,Match Report,2025,Manchester City
+174,35,2025-02-02,16:30,Premier League,Matchweek 24,Sun,Away,L,1,5,Arsenal,1,7.0,4.0,57.1,0.14,0.25,12.6,0.0,0,0,0.8,0.8,0.12,0.2,0.2,Match Report,2025,Manchester City
+176,0,2024-08-17,15:00,Premier League,Matchweek 1,Sat,Home,W,1,0,Southampton,1,3.0,1.0,33.3,0.33,1.0,13.2,0.0,0,0,0.3,0.3,0.08,0.7,0.7,Match Report,2025,Newcastle United
+177,1,2024-08-25,14:00,Premier League,Matchweek 2,Sun,Away,D,1,1,Bournemouth,1,14.0,5.0,35.7,0.07,0.2,12.6,0.0,0,0,1.6,1.6,0.12,-0.6,-0.6,Match Report,2025,Newcastle United
+179,3,2024-09-01,13:30,Premier League,Matchweek 3,Sun,Home,W,2,1,Tottenham,2,9.0,3.0,33.3,0.22,0.67,14.0,0.0,0,0,1.8,1.8,0.2,0.2,0.2,Match Report,2025,Newcastle United
+180,4,2024-09-15,16:30,Premier League,Matchweek 4,Sun,Away,W,2,1,Wolves,2,14.0,6.0,42.9,0.14,0.33,17.9,0.0,0,0,1.5,1.5,0.11,0.5,0.5,Match Report,2025,Newcastle United
+181,5,2024-09-21,15:00,Premier League,Matchweek 5,Sat,Away,L,1,3,Fulham,1,16.0,5.0,31.3,0.06,0.2,16.9,1.0,0,0,1.5,1.5,0.1,-0.5,-0.5,Match Report,2025,Newcastle United
+182,6,2024-09-28,12:30,Premier League,Matchweek 6,Sat,Home,D,1,1,Manchester City,1,10.0,3.0,30.0,0.0,0.0,15.1,0.0,1,1,1.6,0.8,0.08,-0.6,-0.8,Match Report,2025,Newcastle United
+184,8,2024-10-05,17:30,Premier League,Matchweek 7,Sat,Away,D,0,0,Everton,0,13.0,1.0,7.7,0.0,0.0,13.8,0.0,0,1,2.1,1.3,0.1,-2.1,-1.3,Match Report,2025,Newcastle United
+185,9,2024-10-19,15:00,Premier League,Matchweek 8,Sat,Home,L,0,1,Brighton,0,21.0,6.0,28.6,0.0,0.0,17.3,2.0,0,0,2.0,2.0,0.1,-2.0,-2.0,Match Report,2025,Newcastle United
+186,10,2024-10-27,14:00,Premier League,Matchweek 9,Sun,Away,L,1,2,Chelsea,1,11.0,2.0,18.2,0.09,0.5,14.0,1.0,0,0,1.8,1.8,0.16,-0.8,-0.8,Match Report,2025,Newcastle United
+188,12,2024-11-02,12:30,Premier League,Matchweek 10,Sat,Home,W,1,0,Arsenal,1,9.0,4.0,44.4,0.11,0.25,14.6,0.0,0,0,0.5,0.5,0.06,0.5,0.5,Match Report,2025,Newcastle United
+189,13,2024-11-10,14:00,Premier League,Matchweek 11,Sun,Away,W,3,1,Nott'ham Forest,3,17.0,6.0,35.3,0.18,0.5,16.1,0.0,0,0,1.6,1.6,0.1,1.4,1.4,Match Report,2025,Newcastle United
+190,14,2024-11-25,20:00,Premier League,Matchweek 12,Mon,Home,L,0,2,West Ham,0,18.0,2.0,11.1,0.0,0.0,16.1,0.0,0,0,1.6,1.6,0.09,-1.6,-1.6,Match Report,2025,Newcastle United
+191,15,2024-11-30,15:00,Premier League,Matchweek 13,Sat,Away,D,1,1,Crystal Palace,0,1.0,0.0,0.0,0.0,,6.9,0.0,0,0,0.0,0.0,0.04,0.0,0.0,Match Report,2025,Newcastle United
+192,16,2024-12-04,19:30,Premier League,Matchweek 14,Wed,Home,D,3,3,Liverpool,3,17.0,6.0,35.3,0.18,0.5,19.1,1.0,0,0,2.1,2.1,0.12,0.9,0.9,Match Report,2025,Newcastle United
+193,17,2024-12-07,15:00,Premier League,Matchweek 15,Sat,Away,L,2,4,Brentford,2,16.0,3.0,18.8,0.13,0.67,16.2,0.0,0,0,1.5,1.5,0.09,0.5,0.5,Match Report,2025,Newcastle United
+194,18,2024-12-14,15:00,Premier League,Matchweek 16,Sat,Home,W,4,0,Leicester City,4,27.0,11.0,40.7,0.15,0.36,15.1,1.0,0,0,3.8,3.8,0.14,0.2,0.2,Match Report,2025,Newcastle United
+196,20,2024-12-21,15:00,Premier League,Matchweek 17,Sat,Away,W,4,0,Ipswich Town,4,15.0,7.0,46.7,0.27,0.57,14.1,0.0,0,0,2.3,2.3,0.16,1.7,1.7,Match Report,2025,Newcastle United
+197,21,2024-12-26,15:00,Premier League,Matchweek 18,Thu,Home,W,3,0,Aston Villa,3,22.0,7.0,31.8,0.14,0.43,15.8,1.0,0,0,2.7,2.7,0.13,0.3,0.3,Match Report,2025,Newcastle United
+198,22,2024-12-30,20:00,Premier League,Matchweek 19,Mon,Away,W,2,0,Manchester Utd,2,12.0,4.0,33.3,0.17,0.5,15.2,0.0,0,0,1.9,1.9,0.16,0.1,0.1,Match Report,2025,Newcastle United
+199,23,2025-01-04,12:30,Premier League,Matchweek 20,Sat,Away,W,2,1,Tottenham,2,14.0,4.0,28.6,0.14,0.5,14.2,0.0,0,0,2.5,2.5,0.18,-0.5,-0.5,Match Report,2025,Newcastle United
+202,26,2025-01-15,19:30,Premier League,Matchweek 21,Wed,Home,W,3,0,Wolves,3,17.0,5.0,29.4,0.18,0.6,17.0,0.0,0,0,2.1,2.1,0.12,0.9,0.9,Match Report,2025,Newcastle United
+203,27,2025-01-18,12:30,Premier League,Matchweek 22,Sat,Home,L,1,4,Bournemouth,1,13.0,4.0,30.8,0.08,0.25,19.0,1.0,0,0,0.8,0.8,0.06,0.2,0.2,Match Report,2025,Newcastle United
+204,28,2025-01-25,15:00,Premier League,Matchweek 23,Sat,Away,W,3,1,Southampton,3,16.0,7.0,43.8,0.13,0.29,19.3,0.0,1,1,2.9,2.1,0.13,0.1,-0.1,Match Report,2025,Newcastle United
+205,29,2025-02-01,15:00,Premier League,Matchweek 24,Sat,Home,L,1,2,Fulham,1,11.0,4.0,36.4,0.09,0.25,15.3,0.0,0,0,0.8,0.8,0.07,0.2,0.2,Match Report,2025,Newcastle United
+208,0,2024-08-17,15:00,Premier League,Matchweek 1,Sat,Away,D,1.0,1.0,Nott'ham Forest,1,13.0,4.0,30.8,0.08,0.25,19.6,1.0,0,0,1.2,1.2,0.09,-0.2,-0.2,Match Report,2025,Bournemouth
+209,1,2024-08-25,14:00,Premier League,Matchweek 2,Sun,Home,D,1.0,1.0,Newcastle Utd,1,16.0,4.0,25.0,0.06,0.25,16.5,1.0,0,0,2.2,2.2,0.14,-1.2,-1.2,Match Report,2025,Bournemouth
+211,3,2024-08-31,15:00,Premier League,Matchweek 3,Sat,Away,W,3.0,2.0,Everton,3,17.0,7.0,41.2,0.18,0.43,14.9,0.0,0,0,2.4,2.4,0.15,0.6,0.6,Match Report,2025,Bournemouth
+212,4,2024-09-14,20:00,Premier League,Matchweek 4,Sat,Home,L,0.0,1.0,Chelsea,0,18.0,6.0,33.3,0.0,0.0,22.4,0.0,0,1,1.7,0.9,0.05,-1.7,-0.9,Match Report,2025,Bournemouth
+213,5,2024-09-21,15:00,Premier League,Matchweek 5,Sat,Away,L,0.0,3.0,Liverpool,0,19.0,6.0,31.6,0.0,0.0,18.7,1.0,0,0,1.1,1.1,0.06,-1.1,-1.1,Match Report,2025,Bournemouth
+214,6,2024-09-30,20:00,Premier League,Matchweek 6,Mon,Home,W,3.0,1.0,Southampton,3,14.0,6.0,42.9,0.21,0.5,18.8,0.0,0,0,1.3,1.3,0.1,1.7,1.7,Match Report,2025,Bournemouth
+215,7,2024-10-05,15:00,Premier League,Matchweek 7,Sat,Away,L,0.0,1.0,Leicester City,0,19.0,2.0,10.5,0.0,0.0,14.3,0.0,0,0,2.1,2.1,0.11,-2.1,-2.1,Match Report,2025,Bournemouth
+216,8,2024-10-19,17:30,Premier League,Matchweek 8,Sat,Home,W,2.0,0.0,Arsenal,2,12.0,3.0,25.0,0.08,0.33,18.9,0.0,1,1,1.8,1.0,0.09,0.2,0.0,Match Report,2025,Bournemouth
+217,9,2024-10-26,15:00,Premier League,Matchweek 9,Sat,Away,D,1.0,1.0,Aston Villa,1,10.0,3.0,30.0,0.1,0.33,21.6,0.0,0,0,0.3,0.3,0.03,0.7,0.7,Match Report,2025,Bournemouth
+218,10,2024-11-02,15:00,Premier League,Matchweek 10,Sat,Home,W,2.0,1.0,Manchester City,2,12.0,6.0,50.0,0.17,0.33,16.0,0.0,0,0,2.0,2.0,0.18,0.0,0.0,Match Report,2025,Bournemouth
+219,11,2024-11-09,15:00,Premier League,Matchweek 11,Sat,Away,L,2.0,3.0,Brentford,2,15.0,3.0,20.0,0.13,0.67,14.8,1.0,0,0,2.6,2.6,0.17,-0.6,-0.6,Match Report,2025,Bournemouth
+220,12,2024-11-23,15:00,Premier League,Matchweek 12,Sat,Home,L,1.0,2.0,Brighton,1,19.0,5.0,26.3,0.05,0.2,15.5,0.0,0,0,1.6,1.6,0.09,-0.6,-0.6,Match Report,2025,Bournemouth
+221,13,2024-11-30,15:00,Premier League,Matchweek 13,Sat,Away,W,4.0,2.0,Wolves,4,9.0,5.0,55.6,0.11,0.2,21.4,0.0,3,3,3.3,0.9,0.1,0.7,0.1,Match Report,2025,Bournemouth
+222,14,2024-12-05,20:15,Premier League,Matchweek 14,Thu,Home,W,1.0,0.0,Tottenham,1,21.0,8.0,38.1,0.05,0.13,13.8,0.0,0,0,3.5,3.5,0.18,-2.5,-2.5,Match Report,2025,Bournemouth
+223,15,2024-12-08,14:00,Premier League,Matchweek 15,Sun,Away,W,2.0,1.0,Ipswich Town,2,22.0,6.0,27.3,0.09,0.33,16.4,0.0,0,0,3.2,3.2,0.15,-1.2,-1.2,Match Report,2025,Bournemouth
+224,16,2024-12-16,20:00,Premier League,Matchweek 16,Mon,Home,D,1.0,1.0,West Ham,1,29.0,9.0,31.0,0.03,0.11,18.3,1.0,0,0,1.9,1.9,0.07,-0.9,-0.9,Match Report,2025,Bournemouth
+225,17,2024-12-22,14:00,Premier League,Matchweek 17,Sun,Away,W,3.0,0.0,Manchester Utd,3,9.0,4.0,44.4,0.22,0.5,19.7,0.0,1,1,1.6,0.8,0.09,1.4,1.2,Match Report,2025,Bournemouth
+226,18,2024-12-26,15:00,Premier League,Matchweek 18,Thu,Home,D,0.0,0.0,Crystal Palace,0,18.0,3.0,16.7,0.0,0.0,14.2,1.0,0,0,1.4,1.4,0.08,-1.4,-1.4,Match Report,2025,Bournemouth
+227,19,2024-12-29,15:00,Premier League,Matchweek 19,Sun,Away,D,2.0,2.0,Fulham,2,16.0,8.0,50.0,0.13,0.25,13.7,0.0,0,0,2.0,2.0,0.12,0.0,0.0,Match Report,2025,Bournemouth
+228,20,2025-01-04,15:00,Premier League,Matchweek 20,Sat,Home,W,1.0,0.0,Everton,1,19.0,8.0,42.1,0.05,0.13,14.8,0.0,0,0,1.8,1.8,0.1,-0.8,-0.8,Match Report,2025,Bournemouth
+230,22,2025-01-14,19:30,Premier League,Matchweek 21,Tue,Away,D,2.0,2.0,Chelsea,2,6.0,2.0,33.3,0.17,0.5,18.6,0.0,1,1,1.2,0.4,0.07,0.8,0.6,Match Report,2025,Bournemouth
+231,23,2025-01-18,12:30,Premier League,Matchweek 22,Sat,Away,W,4.0,1.0,Newcastle Utd,4,19.0,10.0,52.6,0.21,0.4,13.4,0.0,0,0,2.0,2.0,0.11,2.0,2.0,Match Report,2025,Bournemouth
+232,24,2025-01-25,15:00,Premier League,Matchweek 23,Sat,Home,W,5.0,0.0,Nott'ham Forest,5,16.0,10.0,62.5,0.31,0.5,16.3,1.0,0,0,1.7,1.7,0.11,3.3,3.3,Match Report,2025,Bournemouth
+233,25,2025-02-01,15:00,Premier League,Matchweek 24,Sat,Home,L,0.0,2.0,Liverpool,0,14.0,3.0,21.4,0.0,0.0,17.4,0.0,0,0,1.6,1.6,0.11,-1.6,-1.6,Match Report,2025,Bournemouth
+235,0,2024-08-17,17:30,Premier League,Matchweek 1,Sat,Away,W,2.0,1.0,West Ham,2,15.0,3.0,20.0,0.13,0.67,15.2,0.0,0,0,2.0,2.0,0.14,0.0,0.0,Match Report,2025,Aston Villa
+236,1,2024-08-24,17:30,Premier League,Matchweek 2,Sat,Home,L,0.0,2.0,Arsenal,0,11.0,3.0,27.3,0.0,0.0,16.0,0.0,0,0,1.2,1.2,0.12,-1.2,-1.2,Match Report,2025,Aston Villa
+237,2,2024-08-31,15:00,Premier League,Matchweek 3,Sat,Away,W,2.0,1.0,Leicester City,2,10.0,5.0,50.0,0.2,0.4,17.9,0.0,0,0,1.4,1.4,0.16,0.6,0.6,Match Report,2025,Aston Villa
+238,3,2024-09-14,17:30,Premier League,Matchweek 4,Sat,Home,W,3.0,2.0,Everton,3,17.0,7.0,41.2,0.18,0.43,14.0,0.0,0,0,2.1,2.1,0.13,0.9,0.9,Match Report,2025,Aston Villa
+240,5,2024-09-21,15:00,Premier League,Matchweek 5,Sat,Home,W,3.0,1.0,Wolves,3,9.0,3.0,33.3,0.33,1.0,13.7,1.0,0,0,1.7,1.7,0.19,1.3,1.3,Match Report,2025,Aston Villa
+242,7,2024-09-29,14:00,Premier League,Matchweek 6,Sun,Away,D,2.0,2.0,Ipswich Town,2,7.0,3.0,42.9,0.29,0.67,19.0,1.0,0,0,0.8,0.8,0.12,1.2,1.2,Match Report,2025,Aston Villa
+244,9,2024-10-06,14:00,Premier League,Matchweek 7,Sun,Home,D,0.0,0.0,Manchester Utd,0,11.0,1.0,9.1,0.0,0.0,20.3,1.0,0,0,0.5,0.5,0.05,-0.5,-0.5,Match Report,2025,Aston Villa
+245,10,2024-10-19,15:00,Premier League,Matchweek 8,Sat,Away,W,3.0,1.0,Fulham,2,14.0,5.0,35.7,0.14,0.4,15.1,1.0,0,0,1.6,1.6,0.12,0.4,0.4,Match Report,2025,Aston Villa
+247,12,2024-10-26,15:00,Premier League,Matchweek 9,Sat,Home,D,1.0,1.0,Bournemouth,1,18.0,8.0,44.4,0.06,0.13,15.1,0.0,0,0,1.8,1.8,0.1,-0.8,-0.8,Match Report,2025,Aston Villa
+249,14,2024-11-03,14:00,Premier League,Matchweek 10,Sun,Away,L,1.0,4.0,Tottenham,1,12.0,1.0,8.3,0.08,1.0,16.2,0.0,0,0,1.8,1.8,0.15,-0.8,-0.8,Match Report,2025,Aston Villa
+251,16,2024-11-09,20:00,Premier League,Matchweek 11,Sat,Away,L,0.0,2.0,Liverpool,0,12.0,2.0,16.7,0.0,0.0,11.6,0.0,0,0,1.2,1.2,0.12,-1.2,-1.2,Match Report,2025,Aston Villa
+252,17,2024-11-23,15:00,Premier League,Matchweek 12,Sat,Home,D,2.0,2.0,Crystal Palace,2,16.0,4.0,25.0,0.13,0.5,14.9,0.0,0,1,3.0,2.2,0.15,-1.0,-0.2,Match Report,2025,Aston Villa
+254,19,2024-12-01,13:30,Premier League,Matchweek 13,Sun,Away,L,0.0,3.0,Chelsea,0,10.0,3.0,30.0,0.0,0.0,13.4,0.0,0,0,1.2,1.2,0.12,-1.2,-1.2,Match Report,2025,Aston Villa
+255,20,2024-12-04,20:15,Premier League,Matchweek 14,Wed,Home,W,3.0,1.0,Brentford,3,19.0,9.0,47.4,0.11,0.22,15.0,0.0,1,1,2.4,1.6,0.09,0.6,0.4,Match Report,2025,Aston Villa
+256,21,2024-12-07,15:00,Premier League,Matchweek 15,Sat,Home,W,1.0,0.0,Southampton,1,18.0,4.0,22.2,0.06,0.25,14.2,0.0,0,0,2.3,2.3,0.13,-1.3,-1.3,Match Report,2025,Aston Villa
+258,23,2024-12-14,17:30,Premier League,Matchweek 16,Sat,Away,L,1.0,2.0,Nott'ham Forest,1,8.0,2.0,25.0,0.13,0.5,15.6,0.0,0,0,0.4,0.4,0.05,0.6,0.6,Match Report,2025,Aston Villa
+259,24,2024-12-21,12:30,Premier League,Matchweek 17,Sat,Home,W,2.0,1.0,Manchester City,2,11.0,6.0,54.5,0.18,0.33,13.9,0.0,0,0,1.6,1.6,0.15,0.4,0.4,Match Report,2025,Aston Villa
+260,25,2024-12-26,15:00,Premier League,Matchweek 18,Thu,Away,L,0.0,3.0,Newcastle Utd,0,4.0,1.0,25.0,0.0,0.0,17.0,1.0,0,0,0.3,0.3,0.09,-0.3,-0.3,Match Report,2025,Aston Villa
+261,26,2024-12-30,19:45,Premier League,Matchweek 19,Mon,Home,D,2.0,2.0,Brighton,2,19.0,3.0,15.8,0.05,0.33,17.9,0.0,1,1,1.8,1.0,0.05,0.2,0.0,Match Report,2025,Aston Villa
+262,27,2025-01-04,15:00,Premier League,Matchweek 20,Sat,Home,W,2.0,1.0,Leicester City,2,13.0,5.0,38.5,0.15,0.4,15.9,0.0,0,0,1.4,1.4,0.12,0.6,0.6,Match Report,2025,Aston Villa
+264,29,2025-01-15,19:30,Premier League,Matchweek 21,Wed,Away,W,1.0,0.0,Everton,1,11.0,3.0,27.3,0.09,0.33,20.5,1.0,0,0,1.2,1.2,0.11,-0.2,-0.2,Match Report,2025,Aston Villa
+265,30,2025-01-18,17:30,Premier League,Matchweek 22,Sat,Away,D,2.0,2.0,Arsenal,2,8.0,4.0,50.0,0.25,0.5,16.9,0.0,0,0,1.0,1.0,0.13,1.0,1.0,Match Report,2025,Aston Villa
+267,32,2025-01-26,16:30,Premier League,Matchweek 23,Sun,Home,D,1.0,1.0,West Ham,1,14.0,4.0,28.6,0.07,0.25,18.0,1.0,0,0,0.9,0.9,0.06,0.1,0.1,Match Report,2025,Aston Villa
+269,34,2025-02-01,17:30,Premier League,Matchweek 24,Sat,Away,L,0.0,2.0,Wolves,0,10.0,3.0,30.0,0.0,0.0,20.9,0.0,0,0,0.4,0.4,0.04,-0.4,-0.4,Match Report,2025,Aston Villa
+271,0,2024-08-16,20:00,Premier League,Matchweek 1,Fri,Away,L,0,1,Manchester Utd,0,10.0,2.0,20.0,0.0,0.0,16.9,0.0,0,0,0.4,0.4,0.04,-0.4,-0.4,Match Report,2025,Fulham
+272,1,2024-08-24,15:00,Premier League,Matchweek 2,Sat,Home,W,2,1,Leicester City,2,18.0,6.0,33.3,0.11,0.33,15.8,1.0,0,0,1.8,1.8,0.1,0.2,0.2,Match Report,2025,Fulham
+274,3,2024-08-31,15:00,Premier League,Matchweek 3,Sat,Away,D,1,1,Ipswich Town,1,9.0,4.0,44.4,0.11,0.25,13.1,0.0,0,0,0.9,0.9,0.11,0.1,0.1,Match Report,2025,Fulham
+275,4,2024-09-14,15:00,Premier League,Matchweek 4,Sat,Home,D,1,1,West Ham,1,21.0,5.0,23.8,0.05,0.2,16.4,2.0,0,0,1.5,1.5,0.07,-0.5,-0.5,Match Report,2025,Fulham
+277,6,2024-09-21,15:00,Premier League,Matchweek 5,Sat,Home,W,3,1,Newcastle Utd,3,22.0,11.0,50.0,0.14,0.27,15.4,0.0,0,0,2.2,2.2,0.1,0.8,0.8,Match Report,2025,Fulham
+278,7,2024-09-28,15:00,Premier League,Matchweek 6,Sat,Away,W,1,0,Nott'ham Forest,1,13.0,1.0,7.7,0.0,0.0,20.2,0.0,1,1,1.3,0.5,0.04,-0.3,-0.5,Match Report,2025,Fulham
+279,8,2024-10-05,15:00,Premier League,Matchweek 7,Sat,Away,L,2,3,Manchester City,2,11.0,4.0,36.4,0.18,0.5,14.0,0.0,0,0,2.6,2.6,0.24,-0.6,-0.6,Match Report,2025,Fulham
+280,9,2024-10-19,15:00,Premier League,Matchweek 8,Sat,Home,L,1,3,Aston Villa,1,9.0,3.0,33.3,0.11,0.33,12.3,0.0,0,1,1.8,1.0,0.11,-0.8,0.0,Match Report,2025,Fulham
+281,10,2024-10-26,17:30,Premier League,Matchweek 9,Sat,Away,D,1,1,Everton,1,14.0,3.0,21.4,0.07,0.33,18.2,0.0,0,0,1.2,1.2,0.09,-0.2,-0.2,Match Report,2025,Fulham
+282,11,2024-11-04,20:00,Premier League,Matchweek 10,Mon,Home,W,2,1,Brentford,2,26.0,12.0,46.2,0.08,0.17,18.3,0.0,0,0,1.3,1.3,0.05,0.7,0.7,Match Report,2025,Fulham
+283,12,2024-11-09,15:00,Premier League,Matchweek 11,Sat,Away,W,2,0,Crystal Palace,2,17.0,7.0,41.2,0.12,0.29,17.0,0.0,0,0,1.8,1.8,0.11,0.2,0.2,Match Report,2025,Fulham
+284,13,2024-11-23,15:00,Premier League,Matchweek 12,Sat,Home,L,1,4,Wolves,1,10.0,3.0,30.0,0.1,0.33,17.2,0.0,0,0,1.0,1.0,0.1,0.0,0.0,Match Report,2025,Fulham
+285,14,2024-12-01,13:30,Premier League,Matchweek 13,Sun,Away,D,1,1,Tottenham,1,14.0,6.0,42.9,0.07,0.17,13.4,0.0,0,0,1.5,1.5,0.11,-0.5,-0.5,Match Report,2025,Fulham
+286,15,2024-12-05,19:30,Premier League,Matchweek 14,Thu,Home,W,3,1,Brighton,2,6.0,2.0,33.3,0.33,1.0,14.3,0.0,0,0,1.1,1.1,0.18,0.9,0.9,Match Report,2025,Fulham
+287,16,2024-12-08,14:00,Premier League,Matchweek 15,Sun,Home,D,1,1,Arsenal,1,2.0,2.0,100.0,0.5,0.5,14.4,0.0,0,0,0.2,0.2,0.08,0.8,0.8,Match Report,2025,Fulham
+288,17,2024-12-14,15:00,Premier League,Matchweek 16,Sat,Away,D,2,2,Liverpool,2,12.0,3.0,25.0,0.17,0.67,16.9,1.0,0,0,1.2,1.2,0.1,0.8,0.8,Match Report,2025,Fulham
+289,18,2024-12-22,14:00,Premier League,Matchweek 17,Sun,Home,D,0,0,Southampton,0,15.0,5.0,33.3,0.0,0.0,20.0,0.0,0,0,0.9,0.9,0.06,-0.9,-0.9,Match Report,2025,Fulham
+290,19,2024-12-26,15:00,Premier League,Matchweek 18,Thu,Away,W,2,1,Chelsea,2,14.0,7.0,50.0,0.14,0.29,16.2,1.0,0,0,1.8,1.8,0.13,0.2,0.2,Match Report,2025,Fulham
+291,20,2024-12-29,15:00,Premier League,Matchweek 19,Sun,Home,D,2,2,Bournemouth,2,11.0,6.0,54.5,0.18,0.33,16.1,0.0,0,0,1.1,1.1,0.1,0.9,0.9,Match Report,2025,Fulham
+292,21,2025-01-05,14:00,Premier League,Matchweek 20,Sun,Home,D,2,2,Ipswich Town,2,13.0,2.0,15.4,0.0,0.0,20.4,0.0,2,2,2.2,0.6,0.05,-0.2,-0.6,Match Report,2025,Fulham
+294,23,2025-01-14,19:30,Premier League,Matchweek 21,Tue,Away,L,2,3,West Ham,2,21.0,4.0,19.0,0.1,0.5,17.9,1.0,0,0,1.7,1.7,0.09,0.3,0.3,Match Report,2025,Fulham
+295,24,2025-01-18,15:00,Premier League,Matchweek 22,Sat,Away,W,2,0,Leicester City,2,17.0,2.0,11.8,0.12,1.0,14.1,1.0,0,0,2.0,2.0,0.13,0.0,0.0,Match Report,2025,Fulham
+296,25,2025-01-26,19:00,Premier League,Matchweek 23,Sun,Home,L,0,1,Manchester Utd,0,9.0,2.0,22.2,0.0,0.0,14.5,0.0,0,0,0.7,0.7,0.07,-0.7,-0.7,Match Report,2025,Fulham
+297,26,2025-02-01,15:00,Premier League,Matchweek 24,Sat,Away,W,2,1,Newcastle Utd,2,15.0,4.0,26.7,0.13,0.5,16.2,0.0,0,0,1.6,1.6,0.1,0.4,0.4,Match Report,2025,Fulham
+299,0,2024-08-17,15:00,Premier League,Matchweek 1,Sat,Away,W,3.0,0.0,Everton,3,10.0,5.0,50.0,0.3,0.6,13.8,0.0,0,0,1.4,1.4,0.14,1.6,1.6,Match Report,2025,Brighton and Hove Albion
+300,1,2024-08-24,12:30,Premier League,Matchweek 2,Sat,Home,W,2.0,1.0,Manchester Utd,2,14.0,4.0,28.6,0.14,0.5,14.2,1.0,0,0,2.1,2.1,0.15,-0.1,-0.1,Match Report,2025,Brighton and Hove Albion
+302,3,2024-08-31,12:30,Premier League,Matchweek 3,Sat,Away,D,1.0,1.0,Arsenal,1,22.0,4.0,18.2,0.05,0.25,19.3,0.0,0,0,1.7,1.7,0.08,-0.7,-0.7,Match Report,2025,Brighton and Hove Albion
+303,4,2024-09-14,15:00,Premier League,Matchweek 4,Sat,Home,D,0.0,0.0,Ipswich Town,0,21.0,6.0,28.6,0.0,0.0,18.5,2.0,0,0,1.6,1.6,0.09,-1.6,-1.6,Match Report,2025,Brighton and Hove Albion
+305,6,2024-09-22,14:00,Premier League,Matchweek 5,Sun,Home,D,2.0,2.0,Nott'ham Forest,2,14.0,3.0,21.4,0.14,0.67,17.4,1.0,0,0,1.0,1.0,0.07,1.0,1.0,Match Report,2025,Brighton and Hove Albion
+306,7,2024-09-28,15:00,Premier League,Matchweek 6,Sat,Away,L,2.0,4.0,Chelsea,2,15.0,5.0,33.3,0.13,0.4,20.1,2.0,0,0,1.1,1.1,0.07,0.9,0.9,Match Report,2025,Brighton and Hove Albion
+307,8,2024-10-06,16:30,Premier League,Matchweek 7,Sun,Home,W,3.0,2.0,Tottenham,3,11.0,4.0,36.4,0.27,0.75,14.8,0.0,0,0,1.8,1.8,0.16,1.2,1.2,Match Report,2025,Brighton and Hove Albion
+308,9,2024-10-19,15:00,Premier League,Matchweek 8,Sat,Away,W,1.0,0.0,Newcastle Utd,1,10.0,5.0,50.0,0.1,0.2,16.0,0.0,0,0,1.1,1.1,0.11,-0.1,-0.1,Match Report,2025,Brighton and Hove Albion
+309,10,2024-10-26,15:00,Premier League,Matchweek 9,Sat,Home,D,2.0,2.0,Wolves,2,19.0,6.0,31.6,0.11,0.33,17.5,1.0,0,0,1.3,1.3,0.07,0.7,0.7,Match Report,2025,Brighton and Hove Albion
+311,12,2024-11-02,15:00,Premier League,Matchweek 10,Sat,Away,L,1.0,2.0,Liverpool,1,13.0,5.0,38.5,0.08,0.2,19.6,2.0,0,0,1.0,1.0,0.08,0.0,0.0,Match Report,2025,Brighton and Hove Albion
+312,13,2024-11-09,17:30,Premier League,Matchweek 11,Sat,Home,W,2.0,1.0,Manchester City,2,10.0,4.0,40.0,0.2,0.5,13.5,1.0,0,0,2.3,2.3,0.23,-0.3,-0.3,Match Report,2025,Brighton and Hove Albion
+313,14,2024-11-23,15:00,Premier League,Matchweek 12,Sat,Away,W,2.0,1.0,Bournemouth,2,6.0,4.0,66.7,0.33,0.5,13.9,0.0,0,0,0.9,0.9,0.16,1.1,1.1,Match Report,2025,Brighton and Hove Albion
+314,15,2024-11-29,20:00,Premier League,Matchweek 13,Fri,Home,D,1.0,1.0,Southampton,1,22.0,5.0,22.7,0.05,0.2,16.5,0.0,0,0,1.7,1.7,0.08,-0.7,-0.7,Match Report,2025,Brighton and Hove Albion
+315,16,2024-12-05,19:30,Premier League,Matchweek 14,Thu,Away,L,1.0,3.0,Fulham,1,13.0,3.0,23.1,0.08,0.33,16.7,1.0,0,0,1.4,1.4,0.11,-0.4,-0.4,Match Report,2025,Brighton and Hove Albion
+316,17,2024-12-08,14:00,Premier League,Matchweek 15,Sun,Away,D,2.0,2.0,Leicester City,2,16.0,7.0,43.8,0.13,0.29,19.0,2.0,0,0,1.5,1.5,0.1,0.5,0.5,Match Report,2025,Brighton and Hove Albion
+317,18,2024-12-15,14:00,Premier League,Matchweek 16,Sun,Home,L,1.0,3.0,Crystal Palace,0,17.0,5.0,29.4,0.0,0.0,20.6,1.0,0,0,1.0,1.0,0.06,-1.0,-1.0,Match Report,2025,Brighton and Hove Albion
+318,19,2024-12-21,15:00,Premier League,Matchweek 17,Sat,Away,D,1.0,1.0,West Ham,1,12.0,6.0,50.0,0.08,0.17,15.0,0.0,0,0,0.9,0.9,0.08,0.1,0.1,Match Report,2025,Brighton and Hove Albion
+319,20,2024-12-27,19:30,Premier League,Matchweek 18,Fri,Home,D,0.0,0.0,Brentford,0,24.0,7.0,29.2,0.0,0.0,18.0,1.0,0,0,1.3,1.3,0.05,-1.3,-1.3,Match Report,2025,Brighton and Hove Albion
+320,21,2024-12-30,19:45,Premier League,Matchweek 19,Mon,Away,D,2.0,2.0,Aston Villa,2,13.0,4.0,30.8,0.15,0.5,19.1,0.0,0,0,1.1,1.1,0.09,0.9,0.9,Match Report,2025,Brighton and Hove Albion
+321,22,2025-01-04,17:30,Premier League,Matchweek 20,Sat,Home,D,1.0,1.0,Arsenal,1,10.0,3.0,30.0,0.0,0.0,21.3,1.0,1,1,1.5,0.7,0.07,-0.5,-0.7,Match Report,2025,Brighton and Hove Albion
+323,24,2025-01-16,19:30,Premier League,Matchweek 21,Thu,Away,W,2.0,0.0,Ipswich Town,2,11.0,5.0,45.5,0.18,0.4,14.1,0.0,0,0,1.0,1.0,0.09,1.0,1.0,Match Report,2025,Brighton and Hove Albion
+324,25,2025-01-19,14:00,Premier League,Matchweek 22,Sun,Away,W,3.0,1.0,Manchester Utd,3,6.0,3.0,50.0,0.5,1.0,15.3,0.0,0,0,1.9,1.9,0.32,1.1,1.1,Match Report,2025,Brighton and Hove Albion
+325,26,2025-01-25,15:00,Premier League,Matchweek 23,Sat,Home,L,0.0,1.0,Everton,0,16.0,1.0,6.3,0.0,0.0,19.6,0.0,0,0,0.7,0.7,0.05,-0.7,-0.7,Match Report,2025,Brighton and Hove Albion
+326,27,2025-02-01,12:30,Premier League,Matchweek 24,Sat,Away,L,0.0,7.0,Nott'ham Forest,0,10.0,5.0,50.0,0.0,0.0,17.9,1.0,0,0,0.9,0.9,0.09,-0.9,-0.9,Match Report,2025,Brighton and Hove Albion
+328,0,2024-08-18,14:00,Premier League,Matchweek 1,Sun,Home,W,2,1,Crystal Palace,2,9.0,5.0,55.6,0.22,0.4,12.5,0.0,0,0,1.6,1.6,0.2,0.4,0.4,Match Report,2025,Brentford
+329,1,2024-08-25,16:30,Premier League,Matchweek 2,Sun,Away,L,0,2,Liverpool,0,8.0,2.0,25.0,0.0,0.0,18.1,0.0,0,0,0.5,0.5,0.07,-0.5,-0.5,Match Report,2025,Brentford
+331,3,2024-08-31,15:00,Premier League,Matchweek 3,Sat,Home,W,3,1,Southampton,3,20.0,7.0,35.0,0.15,0.43,14.5,0.0,0,0,2.8,2.8,0.14,0.2,0.2,Match Report,2025,Brentford
+332,4,2024-09-14,15:00,Premier League,Matchweek 4,Sat,Away,L,1,2,Manchester City,1,8.0,5.0,62.5,0.13,0.2,12.9,0.0,0,0,1.0,1.0,0.12,0.0,0.0,Match Report,2025,Brentford
+334,6,2024-09-21,15:00,Premier League,Matchweek 5,Sat,Away,L,1,3,Tottenham,1,6.0,6.0,100.0,0.17,0.17,14.4,0.0,0,0,0.8,0.8,0.13,0.2,0.2,Match Report,2025,Brentford
+335,7,2024-09-28,15:00,Premier League,Matchweek 6,Sat,Home,D,1,1,West Ham,1,8.0,3.0,37.5,0.13,0.33,20.7,1.0,0,0,0.4,0.4,0.05,0.6,0.6,Match Report,2025,Brentford
+336,8,2024-10-05,15:00,Premier League,Matchweek 7,Sat,Home,W,5,3,Wolves,5,18.0,11.0,61.1,0.22,0.36,13.0,1.0,1,1,4.2,3.4,0.19,0.8,0.6,Match Report,2025,Brentford
+337,9,2024-10-19,15:00,Premier League,Matchweek 8,Sat,Away,L,1,2,Manchester Utd,1,8.0,2.0,25.0,0.13,0.5,17.9,1.0,0,0,0.9,0.9,0.11,0.1,0.1,Match Report,2025,Brentford
+338,10,2024-10-26,15:00,Premier League,Matchweek 9,Sat,Home,W,4,3,Ipswich Town,4,19.0,8.0,42.1,0.16,0.38,16.0,1.0,1,1,4.0,3.3,0.17,0.0,-0.3,Match Report,2025,Brentford
+340,12,2024-11-04,20:00,Premier League,Matchweek 10,Mon,Away,L,1,2,Fulham,1,5.0,2.0,40.0,0.2,0.5,18.0,0.0,0,0,0.6,0.6,0.13,0.4,0.4,Match Report,2025,Brentford
+341,13,2024-11-09,15:00,Premier League,Matchweek 11,Sat,Home,W,3,2,Bournemouth,3,12.0,6.0,50.0,0.25,0.5,14.6,0.0,0,0,1.5,1.5,0.12,1.5,1.5,Match Report,2025,Brentford
+342,14,2024-11-23,15:00,Premier League,Matchweek 12,Sat,Away,D,0,0,Everton,0,9.0,2.0,22.2,0.0,0.0,18.4,0.0,0,0,1.1,1.1,0.12,-1.1,-1.1,Match Report,2025,Brentford
+343,15,2024-11-30,15:00,Premier League,Matchweek 13,Sat,Home,W,4,1,Leicester City,4,13.0,6.0,46.2,0.31,0.67,16.0,1.0,0,0,2.4,2.4,0.18,1.6,1.6,Match Report,2025,Brentford
+344,16,2024-12-04,20:15,Premier League,Matchweek 14,Wed,Away,L,1,3,Aston Villa,1,9.0,1.0,11.1,0.11,1.0,14.0,0.0,0,0,0.9,0.9,0.11,0.1,0.1,Match Report,2025,Brentford
+345,17,2024-12-07,15:00,Premier League,Matchweek 15,Sat,Home,W,4,2,Newcastle Utd,4,11.0,7.0,63.6,0.36,0.57,17.6,0.0,0,0,1.2,1.2,0.11,2.8,2.8,Match Report,2025,Brentford
+346,18,2024-12-15,19:00,Premier League,Matchweek 16,Sun,Away,L,1,2,Chelsea,1,9.0,4.0,44.4,0.11,0.25,11.9,0.0,0,0,1.6,1.6,0.18,-0.6,-0.6,Match Report,2025,Brentford
+348,20,2024-12-21,15:00,Premier League,Matchweek 17,Sat,Home,L,0,2,Nott'ham Forest,0,7.0,3.0,42.9,0.0,0.0,10.8,0.0,0,0,0.7,0.7,0.1,-0.7,-0.7,Match Report,2025,Brentford
+349,21,2024-12-27,19:30,Premier League,Matchweek 18,Fri,Away,D,0,0,Brighton,0,8.0,3.0,37.5,0.0,0.0,14.1,0.0,0,0,1.1,1.1,0.13,-1.1,-1.1,Match Report,2025,Brentford
+350,22,2025-01-01,17:30,Premier League,Matchweek 19,Wed,Home,L,1,3,Arsenal,1,5.0,2.0,40.0,0.2,0.5,27.9,0.0,0,0,0.3,0.3,0.06,0.7,0.7,Match Report,2025,Brentford
+351,23,2025-01-04,15:00,Premier League,Matchweek 20,Sat,Away,W,5,0,Southampton,5,19.0,9.0,47.4,0.21,0.44,13.6,0.0,1,1,4.4,3.6,0.19,0.6,0.4,Match Report,2025,Brentford
+353,25,2025-01-14,19:30,Premier League,Matchweek 21,Tue,Home,D,2,2,Manchester City,2,18.0,5.0,27.8,0.11,0.4,14.2,0.0,0,0,2.5,2.5,0.14,-0.5,-0.5,Match Report,2025,Brentford
+354,26,2025-01-18,15:00,Premier League,Matchweek 22,Sat,Home,L,0,2,Liverpool,0,11.0,6.0,54.5,0.0,0.0,14.7,0.0,0,0,0.7,0.7,0.07,-0.7,-0.7,Match Report,2025,Brentford
+355,27,2025-01-26,14:00,Premier League,Matchweek 23,Sun,Away,W,2,1,Crystal Palace,2,11.0,5.0,45.5,0.09,0.2,20.4,1.0,1,1,1.3,0.5,0.04,0.7,0.5,Match Report,2025,Brentford
+356,28,2025-02-02,14:00,Premier League,Matchweek 24,Sun,Home,L,0,2,Tottenham,0,20.0,3.0,15.0,0.0,0.0,15.6,1.0,0,0,2.1,2.1,0.1,-2.1,-2.1,Match Report,2025,Brentford
+358,0,2024-08-18,14:00,Premier League,Matchweek 1,Sun,Away,L,1.0,2.0,Brentford,0,14.0,6.0,42.9,0.0,0.0,19.2,1.0,0,0,1.2,1.2,0.08,-1.2,-1.2,Match Report,2025,Crystal Palace
+359,1,2024-08-24,15:00,Premier League,Matchweek 2,Sat,Home,L,0.0,2.0,West Ham,0,14.0,2.0,14.3,0.0,0.0,19.5,0.0,0,0,1.3,1.3,0.1,-1.3,-1.3,Match Report,2025,Crystal Palace
+361,3,2024-09-01,13:30,Premier League,Matchweek 3,Sun,Away,D,1.0,1.0,Chelsea,1,9.0,3.0,33.3,0.11,0.33,20.6,1.0,0,0,0.5,0.5,0.06,0.5,0.5,Match Report,2025,Crystal Palace
+362,4,2024-09-14,15:00,Premier League,Matchweek 4,Sat,Home,D,2.0,2.0,Leicester City,2,19.0,3.0,15.8,0.05,0.33,15.4,1.0,1,1,2.5,1.7,0.09,-0.5,-0.7,Match Report,2025,Crystal Palace
+364,6,2024-09-21,17:30,Premier League,Matchweek 5,Sat,Home,D,0.0,0.0,Manchester Utd,0,9.0,4.0,44.4,0.0,0.0,14.6,0.0,0,0,1.0,1.0,0.12,-1.0,-1.0,Match Report,2025,Crystal Palace
+365,7,2024-09-28,15:00,Premier League,Matchweek 6,Sat,Away,L,1.0,2.0,Everton,1,17.0,4.0,23.5,0.06,0.25,17.3,1.0,0,0,0.9,0.9,0.06,0.1,0.1,Match Report,2025,Crystal Palace
+366,8,2024-10-05,12:30,Premier League,Matchweek 7,Sat,Home,L,0.0,1.0,Liverpool,0,9.0,5.0,55.6,0.0,0.0,21.9,0.0,0,0,0.6,0.6,0.07,-0.6,-0.6,Match Report,2025,Crystal Palace
+367,9,2024-10-21,20:00,Premier League,Matchweek 8,Mon,Away,L,0.0,1.0,Nott'ham Forest,0,20.0,7.0,35.0,0.0,0.0,21.1,0.0,0,0,1.0,1.0,0.05,-1.0,-1.0,Match Report,2025,Crystal Palace
+368,10,2024-10-27,14:00,Premier League,Matchweek 9,Sun,Home,W,1.0,0.0,Tottenham,1,14.0,6.0,42.9,0.07,0.17,19.6,1.0,0,0,0.8,0.8,0.06,0.2,0.2,Match Report,2025,Crystal Palace
+370,12,2024-11-02,17:30,Premier League,Matchweek 10,Sat,Away,D,2.0,2.0,Wolves,2,19.0,6.0,31.6,0.11,0.33,13.3,0.0,0,0,2.4,2.4,0.13,-0.4,-0.4,Match Report,2025,Crystal Palace
+371,13,2024-11-09,15:00,Premier League,Matchweek 11,Sat,Home,L,0.0,2.0,Fulham,0,13.0,4.0,30.8,0.0,0.0,17.1,0.0,0,0,1.5,1.5,0.12,-1.5,-1.5,Match Report,2025,Crystal Palace
+372,14,2024-11-23,15:00,Premier League,Matchweek 12,Sat,Away,D,2.0,2.0,Aston Villa,2,13.0,6.0,46.2,0.15,0.33,18.3,1.0,0,0,1.3,1.3,0.1,0.7,0.7,Match Report,2025,Crystal Palace
+373,15,2024-11-30,15:00,Premier League,Matchweek 13,Sat,Home,D,1.0,1.0,Newcastle Utd,1,16.0,3.0,18.8,0.06,0.33,13.6,0.0,0,0,1.7,1.7,0.11,-0.7,-0.7,Match Report,2025,Crystal Palace
+374,16,2024-12-03,19:30,Premier League,Matchweek 14,Tue,Away,W,1.0,0.0,Ipswich Town,1,13.0,3.0,23.1,0.08,0.33,15.2,0.0,0,0,1.6,1.6,0.13,-0.6,-0.6,Match Report,2025,Crystal Palace
+375,17,2024-12-07,15:00,Premier League,Matchweek 15,Sat,Home,D,2.0,2.0,Manchester City,2,12.0,3.0,25.0,0.17,0.67,19.1,0.0,0,0,1.3,1.3,0.11,0.7,0.7,Match Report,2025,Crystal Palace
+376,18,2024-12-15,14:00,Premier League,Matchweek 16,Sun,Away,W,3.0,1.0,Brighton,3,13.0,5.0,38.5,0.23,0.6,12.6,0.0,0,0,2.2,2.2,0.18,0.8,0.8,Match Report,2025,Crystal Palace
+378,20,2024-12-21,17:30,Premier League,Matchweek 17,Sat,Home,L,1.0,5.0,Arsenal,1,15.0,6.0,40.0,0.07,0.17,16.3,0.0,0,0,1.6,1.6,0.11,-0.6,-0.6,Match Report,2025,Crystal Palace
+379,21,2024-12-26,15:00,Premier League,Matchweek 18,Thu,Away,D,0.0,0.0,Bournemouth,0,10.0,4.0,40.0,0.0,0.0,19.4,0.0,0,0,0.4,0.4,0.04,-0.4,-0.4,Match Report,2025,Crystal Palace
+380,22,2024-12-29,15:00,Premier League,Matchweek 19,Sun,Home,W,2.0,1.0,Southampton,2,19.0,9.0,47.4,0.11,0.22,17.4,2.0,0,0,2.0,2.0,0.11,0.0,0.0,Match Report,2025,Crystal Palace
+381,23,2025-01-04,15:00,Premier League,Matchweek 20,Sat,Home,D,1.0,1.0,Chelsea,1,13.0,6.0,46.2,0.08,0.17,17.0,1.0,0,0,1.1,1.1,0.08,-0.1,-0.1,Match Report,2025,Crystal Palace
+383,25,2025-01-15,19:30,Premier League,Matchweek 21,Wed,Away,W,2.0,0.0,Leicester City,2,9.0,4.0,44.4,0.22,0.5,13.3,0.0,0,0,1.8,1.8,0.2,0.2,0.2,Match Report,2025,Crystal Palace
+384,26,2025-01-18,15:00,Premier League,Matchweek 22,Sat,Away,W,2.0,0.0,West Ham,2,11.0,6.0,54.5,0.09,0.17,21.9,0.0,1,1,1.3,0.5,0.05,0.7,0.5,Match Report,2025,Crystal Palace
+385,27,2025-01-26,14:00,Premier League,Matchweek 23,Sun,Home,L,1.0,2.0,Brentford,1,16.0,5.0,31.3,0.06,0.2,19.5,2.0,0,0,1.1,1.1,0.07,-0.1,-0.1,Match Report,2025,Crystal Palace
+386,28,2025-02-02,14:00,Premier League,Matchweek 24,Sun,Away,W,2.0,0.0,Manchester Utd,2,11.0,3.0,27.3,0.18,0.67,14.4,0.0,0,0,2.6,2.6,0.24,-0.6,-0.6,Match Report,2025,Crystal Palace
+389,1,2024-08-16,20:00,Premier League,Matchweek 1,Fri,Home,W,1,0,Fulham,1,14.0,5.0,35.7,0.07,0.2,17.6,0.0,0,0,2.4,2.4,0.17,-1.4,-1.4,Match Report,2025,Manchester United
+390,2,2024-08-24,12:30,Premier League,Matchweek 2,Sat,Away,L,1,2,Brighton,1,11.0,3.0,27.3,0.09,0.33,16.3,0.0,0,0,1.4,1.4,0.13,-0.4,-0.4,Match Report,2025,Manchester United
+391,3,2024-09-01,16:00,Premier League,Matchweek 3,Sun,Home,L,0,3,Liverpool,0,8.0,3.0,37.5,0.0,0.0,15.6,0.0,0,0,1.4,1.4,0.17,-1.4,-1.4,Match Report,2025,Manchester United
+392,4,2024-09-14,12:30,Premier League,Matchweek 4,Sat,Away,W,3,0,Southampton,3,20.0,10.0,50.0,0.15,0.3,17.4,0.0,0,0,2.6,2.6,0.13,0.4,0.4,Match Report,2025,Manchester United
+394,6,2024-09-21,17:30,Premier League,Matchweek 5,Sat,Away,D,0,0,Crystal Palace,0,15.0,6.0,40.0,0.0,0.0,13.9,0.0,0,0,1.6,1.6,0.12,-1.6,-1.6,Match Report,2025,Manchester United
+396,8,2024-09-29,16:30,Premier League,Matchweek 6,Sun,Home,L,0,3,Tottenham,0,11.0,2.0,18.2,0.0,0.0,15.1,0.0,0,0,1.0,1.0,0.09,-1.0,-1.0,Match Report,2025,Manchester United
+398,10,2024-10-06,14:00,Premier League,Matchweek 7,Sun,Away,D,0,0,Aston Villa,0,10.0,4.0,40.0,0.0,0.0,21.5,1.0,0,0,0.6,0.6,0.06,-0.6,-0.6,Match Report,2025,Manchester United
+399,11,2024-10-19,15:00,Premier League,Matchweek 8,Sat,Home,W,2,1,Brentford,2,23.0,11.0,47.8,0.09,0.18,18.7,0.0,0,0,1.3,1.3,0.06,0.7,0.7,Match Report,2025,Manchester United
+401,13,2024-10-27,14:00,Premier League,Matchweek 9,Sun,Away,L,1,2,West Ham,1,18.0,5.0,27.8,0.06,0.2,18.0,1.0,0,0,2.3,2.3,0.13,-1.3,-1.3,Match Report,2025,Manchester United
+403,15,2024-11-03,16:30,Premier League,Matchweek 10,Sun,Home,D,1,1,Chelsea,1,10.0,3.0,30.0,0.0,0.0,18.3,1.0,1,1,2.0,1.2,0.12,-1.0,-1.2,Match Report,2025,Manchester United
+405,17,2024-11-10,14:00,Premier League,Matchweek 11,Sun,Home,W,3,0,Leicester City,2,13.0,3.0,23.1,0.15,0.67,19.3,0.0,0,0,0.8,0.8,0.06,1.2,1.2,Match Report,2025,Manchester United
+406,18,2024-11-24,16:30,Premier League,Matchweek 12,Sun,Away,D,1,1,Ipswich Town,1,11.0,4.0,36.4,0.09,0.25,17.6,1.0,0,0,0.8,0.8,0.07,0.2,0.2,Match Report,2025,Manchester United
+408,20,2024-12-01,13:30,Premier League,Matchweek 13,Sun,Home,W,4,0,Everton,4,11.0,5.0,45.5,0.36,0.8,15.1,0.0,0,0,1.1,1.1,0.1,2.9,2.9,Match Report,2025,Manchester United
+409,21,2024-12-04,20:15,Premier League,Matchweek 14,Wed,Away,L,0,2,Arsenal,0,5.0,2.0,40.0,0.0,0.0,17.7,0.0,0,0,0.2,0.2,0.04,-0.2,-0.2,Match Report,2025,Manchester United
+410,22,2024-12-07,17:30,Premier League,Matchweek 15,Sat,Home,L,2,3,Nott'ham Forest,2,17.0,7.0,41.2,0.12,0.29,18.7,1.0,0,0,1.6,1.6,0.1,0.4,0.4,Match Report,2025,Manchester United
+412,24,2024-12-15,16:30,Premier League,Matchweek 16,Sun,Away,W,2,1,Manchester City,2,9.0,2.0,22.2,0.11,0.5,17.9,0.0,1,1,2.1,1.3,0.14,-0.1,-0.3,Match Report,2025,Manchester United
+414,26,2024-12-22,14:00,Premier League,Matchweek 17,Sun,Home,L,0,3,Bournemouth,0,23.0,7.0,30.4,0.0,0.0,17.7,1.0,0,0,2.2,2.2,0.1,-2.2,-2.2,Match Report,2025,Manchester United
+415,27,2024-12-26,17:30,Premier League,Matchweek 18,Thu,Away,L,0,2,Wolves,0,11.0,4.0,36.4,0.0,0.0,19.2,0.0,0,0,0.4,0.4,0.04,-0.4,-0.4,Match Report,2025,Manchester United
+416,28,2024-12-30,20:00,Premier League,Matchweek 19,Mon,Home,L,0,2,Newcastle Utd,0,10.0,0.0,0.0,0.0,,16.6,0.0,0,0,0.8,0.8,0.09,-0.8,-0.8,Match Report,2025,Manchester United
+417,29,2025-01-05,16:30,Premier League,Matchweek 20,Sun,Away,D,2,2,Liverpool,2,13.0,4.0,30.8,0.15,0.5,15.4,0.0,0,0,1.0,1.0,0.08,1.0,1.0,Match Report,2025,Manchester United
+419,31,2025-01-16,20:00,Premier League,Matchweek 21,Thu,Home,W,3,1,Southampton,3,23.0,9.0,39.1,0.13,0.33,15.0,0.0,0,0,3.4,3.4,0.15,-0.4,-0.4,Match Report,2025,Manchester United
+420,32,2025-01-19,14:00,Premier League,Matchweek 22,Sun,Home,L,1,3,Brighton,1,9.0,0.0,0.0,0.0,,16.4,0.0,1,1,1.5,0.7,0.08,-0.5,-0.7,Match Report,2025,Manchester United
+422,34,2025-01-26,19:00,Premier League,Matchweek 23,Sun,Away,W,1,0,Fulham,1,4.0,1.0,25.0,0.25,1.0,19.9,1.0,0,0,0.3,0.3,0.06,0.7,0.7,Match Report,2025,Manchester United
+424,36,2025-02-02,14:00,Premier League,Matchweek 24,Sun,Home,L,0,2,Crystal Palace,0,17.0,2.0,11.8,0.0,0.0,15.3,0.0,0,0,1.1,1.1,0.07,-1.1,-1.1,Match Report,2025,Manchester United

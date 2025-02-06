@@ -9,8 +9,8 @@ def make_predictions(rf, data, predictors):
     """
     """
     # Need to separate data such that we use older data to predict future match results
-    train = data[data["date"] < '2022-01-01']
-    test = data[data["date"] > '2022-01-01']
+    train = data[data["date"] < '2023-06-01']
+    test = data[data["date"] > '2023-09-01']
 
     rf.fit(train[predictors], train["target"])
     preds = rf.predict(test[predictors])

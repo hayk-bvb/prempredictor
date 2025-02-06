@@ -38,7 +38,7 @@ new_cols = [f"{c}_rolling" for c in cols]
 
 # Create a DF for every squad in our data with rolling averages of past 5 games
 matches_rolling = matches.groupby("team").apply(
-    lambda x: rolling_averages(x, cols, new_cols, 5).assign(team=x.name), include_groups=False
+    lambda x: rolling_averages(x, cols, new_cols, 2).assign(team=x.name), include_groups=False
 )
 # Drop extra team index level for ease of use and also apply full length index to DF, aligned with .shape[0]
 matches_rolling = matches_rolling.droplevel('team')

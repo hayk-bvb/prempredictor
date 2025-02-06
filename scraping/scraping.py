@@ -11,9 +11,7 @@ import random
 
 
 class Scraper:
-    """
-    This is the parent Scraper class
-    """
+    """This is the parent Scraper class"""
     main_url: str
     years: list[int]
     all_matches: list
@@ -53,13 +51,17 @@ class Scraper:
                 print(f"Request failed: {e}")
 
         raise Exception("Max retries exceeded. Could not get a successful response.")
+    
+    def print_df(self, filename) -> None:
+        """Helper function which prints out the CSV as a Pandas DF."""
+
+        df = pd.read_csv(filename)
+        return df
 
 
 
 class MatchScraper(Scraper):
-    """
-    This is the child class of the Scraper class responsible for scrapping match data.
-    """
+    """This is the child class of the Scraper class responsible for scrapping match data."""
     match_url: str
 
     def __init__(self) -> None:
@@ -147,9 +149,7 @@ class MatchScraper(Scraper):
 
 
     def get_stats(self) -> None:
-        """
-        Method which is responsible for scraping the match stats and downloading CSV file into directory.
-        """
+        """Method which is responsible for scraping the match stats and downloading CSV file into directory."""
 
         for year in self.years:
             data = requests.get(self.match_url)
@@ -205,10 +205,8 @@ class MatchScraper(Scraper):
         return None
     
     def clean_future_data(self, filename, exact_date=None) -> None:
-        """
-        Remove chunks of data which are H2H rows of matches which will take place in the future.
-        Saves .csv file to local directory
-        """
+        """Remove chunks of data which are H2H rows of matches which will take place in the future.
+        Saves .csv file to local directory"""
 
         # Read the old unfiltered file and set the "date" column to be a datetime value
         df = pd.read_csv(filename)
@@ -218,7 +216,7 @@ class MatchScraper(Scraper):
         new_df = df.copy()
         if exact_date:
             date_string = exact_date
-            today = datetime.strptime(date_string, "%Y-%m-%d")
+            today = datetime.datetime.strptime(date_string, "%Y-%m-%d")
         else:
             # Set a variable for today's date
             today = datetime.datetime.today().date()
@@ -232,10 +230,11 @@ class MatchScraper(Scraper):
 
         return
     
-    def combine_CSVs(self, filename1, filename2, new_filename) -> None:
-        """
-        A helper function used to combine CSVs together and save to another CSV.
-        """
+    def concat_CSVs(self, filename1, filename2, new_filename) -> None:
+        """A helper function used to combine CSVs together and save to another CSV."""
+        if new_filename[-4:] != ".csv":
+            raise Exception("Please enter correct filename ending with .csv")
+
         # Read the two CSV files
         df1 = pd.read_csv(filename1)
         df2 = pd.read_csv(filename2)
@@ -244,14 +243,23 @@ class MatchScraper(Scraper):
         combined_df = pd.concat([df1, df2], ignore_index=True)
 
         # Save the combined DataFrame to a new CSV file
-        combined_df.to_csv(f"{new_filename}.csv", index=True)
+        combined_df.to_csv(f"{new_filename}", index=True)
 
+    def delete_column(self, filename, col_num, new_filename) -> None:
+        """Helper function used to delete a column from a CSV and then save it to a new CSV."""
+        if new_filename[-4:] != ".csv":
+            raise Exception("Please enter correct filename ending with .csv")
+        
+        df = pd.read_csv(filename)
+        first_column = df.columns[col_num]
+        # Delete first
+        df = df.drop([first_column], axis=1)
+        df.to_csv(f'{new_filename}', index=False)
+        return
 
 
 class PlayerScraper(Scraper):
-    """
-    This is the child class of the Scraper class responsible for scrapping player data.
-    """
+    """This is the child class of the Scraper class responsible for scrapping player data."""
 
     pass
 
@@ -260,6 +268,8 @@ if __name__ == "__main__":
     scraper = Scraper()
     match_scraper = MatchScraper()
     # match_scraper.get_shooting_stats()
-    # match_scraper.clean_future_data("temp.csv")
+    # match_scraper.clean_future_data("shooting_final.csv", "2025-01-26")
 
-    match_scraper.combine_CSVs("temp_modified.csv", "shooting_modified.csv", "shooting_final")
+    # match_scraper.concat_CSVs("temp_modified.csv", "shooting_modified.csv", "shooting_final.csv")
+    # match_scraper.delete_column("shooting_final.csv", 0, "shooting_final_NEW.csv")
+    print(match_scraper.print_df("new_matches_modified.csv"))

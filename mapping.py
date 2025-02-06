@@ -11,5 +11,7 @@ map_values = {
     "Newcastle United": "Newcastle Utd",
     "Tottenham Hotspur": "Tottenham",
     "West Ham United": "West Ham",
-    "Wolverhampton Wanderers": "Wolves"
+    "Wolverhampton Wanderers": "Wolves",
+    "Leeds United": "Leeds Utd",
+    
 }

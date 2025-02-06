@@ -256,6 +256,25 @@ class MatchScraper(Scraper):
         df = df.drop([first_column], axis=1)
         df.to_csv(f'{new_filename}', index=False)
         return
+    
+    def merge_CSVs(self, filename1: str, filename2: str, cols: list[str], how="inner") -> None:
+        """Helper function used to merge CSVs together and then save it to new CSV file."""
+
+        df1 = pd.read_csv(filename1)
+        df2 = pd.read_csv(filename2)
+
+        # Get the common columns between both CSVs
+        common_columns = list(set(df1.columns) & set(df2.columns))
+
+        # Merge only on the common columns without suffixes
+        merged_df = pd.merge(df1, df2, on=common_columns, how=how, suffixes=('', ''))
+
+        # Output the merged DataFrame to a new CSV
+        merged_df.to_csv("merged_output.csv", index=False)
+
+        # Save the merged DataFrame to a new CSV
+        merged_df.to_csv("merged_output.csv", index=False)
+        return
 
 
 class PlayerScraper(Scraper):
@@ -271,5 +290,6 @@ if __name__ == "__main__":
     # match_scraper.clean_future_data("shooting_final.csv", "2025-01-26")
 
     # match_scraper.concat_CSVs("temp_modified.csv", "shooting_modified.csv", "shooting_final.csv")
-    # match_scraper.delete_column("shooting_final.csv", 0, "shooting_final_NEW.csv")
-    print(match_scraper.print_df("new_matches_modified.csv"))
+    # match_scraper.delete_column("new_matches_modified.csv", 0, "new_matches_modified_NEW.csv")
+    # print(match_scraper.print_df("new_matches_modified.csv"))
+    match_scraper.merge_CSVs("new_matches_modified.csv", "shooting_final.csv", ["date", "time", "team", "opponent"])

@@ -4,7 +4,7 @@ from rolling_averages import rolling_averages
 from make_predictions import make_predictions
 from mapping import MissingDict, map_values
 
-matches = pd.read_csv("scraping/shooting_final.csv", index_col=0)
+matches = pd.read_csv("scraping/merged_output.csv")
 
 # First lets clean up some of our data and convert to float64
 matches["date"] = pd.to_datetime(matches["date"])
@@ -13,7 +13,7 @@ matches["date"] = pd.to_datetime(matches["date"])
 # Here we convert venue from "Home" and "Away" to a category and then converting that category into numbers with .cat.codes
 matches["venue_code"] = matches["venue"].astype("category").cat.codes
 # Do the same with referees
-matches["referee"] = matches["ref_code"].astype("category").cat.codes
+matches["ref_code"] = matches["referee"].astype("category").cat.codes
 
 matches["opp_code"] = matches["opponent"].astype("category").cat.codes
 # Remove the coloumn and minutes ("16:30") and keep the whole hour with regex, converted to int so that we can inlcude in ML model
@@ -33,7 +33,7 @@ rf = RandomForestClassifier(n_estimators=50, min_samples_split=10, random_state=
 predictors = ["venue_code", "opp_code", "hour", "day_code", "ref_code"]
 
 
-cols = ["gf", "ga", "sh", "sot", "dist", "fk", "pk", "pkatt"]
+cols = ["gf", "ga", "sh", "sot", "dist", "fk", "pk", "pkatt", "g/sh", "npxg", "g-xg", "np:g-xg"]
 new_cols = [f"{c}_rolling" for c in cols]
 
 # Create a DF for every squad in our data with rolling averages of past 3 games

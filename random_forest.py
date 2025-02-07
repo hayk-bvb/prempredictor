@@ -3,17 +3,10 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
 import numpy as np
 from mapping import MissingDict, map_values
+from rolling_averages import add_rolling_averages
 
-# Load your datasets
-data_part1 = pd.read_csv('matches.csv')
-data_part2 = pd.read_csv('scraping/merged_output.csv')
-
-# Combine the datasets by aligning columns (add missing features with NaN where necessary)
-combined_data = pd.concat(
-    [data_part1.reindex(columns=data_part2.columns, fill_value=np.nan), data_part2], ignore_index=True
-)
-
-combined_data = data_part2
+# Load our dataset
+combined_data = pd.read_csv('scraping/final_matches_v2.csv')
 
 # Preprocess combined data (convert date, time, venue, and opponent to categories)
 combined_data["date"] = pd.to_datetime(combined_data["date"])
@@ -27,25 +20,18 @@ combined_data["target"] = (combined_data["result"] == "W").astype("int")
 # Handle missing values (fill NaNs with 0 for numerical features, as an example)
 combined_data.fillna(0, inplace=True)
 
-# Define predictors based on both datasets
+# Define predictors based dataset
 predictors = ["venue_code", "ref_code", "opp_code", "hour", "day_code", "g/sh", "npxg", "g-xg", "np:g-xg"]
 
 # Sort the data by date to ensure chronological order
 combined_data = combined_data.sort_values("date", ascending=[False])
 
 # Define the columns for which we want rolling averages
-stats_columns = ["gf", "ga", "sh", "sot", "dist", "fk", "pk", "pkatt", "g/sh", "npxg", "g-xg", "np:g-xg"]
+stats_columns = ["gf", "ga", "sh", "sot", "g/sh", "npxg", "g-xg", "np:g-xg"]
 
-# Group by team and calculate rolling averages for past k games
-k = 3  # Adjust this value as needed
-combined_data = combined_data.groupby("team").apply(
-    lambda df: df.sort_values("date").assign(**{f"{col}_rolling": df[col].rolling(k, min_periods=1).mean() for col in stats_columns}).assign(team=df.name),
-    include_groups=False
-)
 
-# Drop extra team index level for ease of use and also apply full length index to DF, aligned with .shape[0]
-combined_data = combined_data.droplevel('team')
-combined_data.index = range(combined_data.shape[0])
+combined_data = add_rolling_averages(combined_data, stats_columns, k=7)
+
 
 # Ensure the final dataset is still sorted in descending order
 combined_data = combined_data.sort_values("date", ascending=False)
@@ -54,7 +40,7 @@ combined_data = combined_data.sort_values("date", ascending=False)
 combined_data.fillna(0, inplace=True)
 
 # Split the data chronologically (80% for training, 20% for testing)
-split_index = int(0.8 * len(combined_data))
+split_index = int(0.75 * len(combined_data))
 train_data = combined_data.iloc[split_index:]
 test_data = combined_data.iloc[:split_index]
 
@@ -86,16 +72,17 @@ merged = combined_data.merge(
     suffixes=('_x', '_y')
 )
 
-
 # Calculate precision based on merged predictions
 precision_v2 = merged[(merged["predicted_x"] == 1) & (merged["predicted_y"] == 0)]["target_x"].value_counts()
+precision_v2_pct = precision_v2[1] / (precision_v2[1] + precision_v2[0])
 
 # Display results
 print(f"Model Accuracy: {accuracy:.2%}")
+print(f"Model precision: {precision_v2_pct:.2%} \n")
 print("Feature Importances:")
 for feature, importance in zip(predictors, feature_importances):
     print(f"{feature}: {importance:.2%}")
 
-print(f"Here is our model's precision: {precision_v2}")
+
 
 

@@ -24,7 +24,7 @@ class Scraper:
 
     def get_request(self, url, max_retries=100, backoff_factor=1):
         """
-        Make a request to a URL using random proxies to bypass 429 errors.
+        Make a request to a URL, handles 429 errors.
         
         Parameters:
             url (str): The URL to make the request to.
@@ -71,16 +71,11 @@ class MatchScraper(Scraper):
         self.match_url = self.main_url + "/en/comps/9/Premier-League-Stats"
         self.cache = {self.match_url: None}
 
-    # def populate_cache(self, url) -> None:
-    #     self.cache[url] = requests.get(url).text
 
     def get_shooting_stats(self) -> None:
-        # self.populate_cache(self.match_url)
 
         try:
-            for year in self.years:
-                # If the cache is empty
-                
+            for year in self.years:                
                 data = self.get_request(self.match_url)
 
                 soup = BeautifulSoup(data.text, features="lxml")
@@ -227,7 +222,6 @@ class MatchScraper(Scraper):
         # Only keep Premier League games
         filtered = filtered[filtered["comp"] == "Premier League"]
         filtered.to_csv(f"{filename.split(".")[0]}_modified.csv", index=True)
-
         return
     
     def concat_CSVs(self, filename1, filename2, new_filename) -> None:
@@ -257,7 +251,7 @@ class MatchScraper(Scraper):
         df.to_csv(f'{new_filename}', index=False)
         return
     
-    def merge_CSVs(self, filename1: str, filename2: str, cols: list[str], how="inner") -> None:
+    def merge_CSVs(self, filename1: str, filename2: str, how="inner") -> None:
         """Helper function used to merge CSVs together and then save it to new CSV file."""
 
         df1 = pd.read_csv(filename1)
@@ -278,7 +272,10 @@ class MatchScraper(Scraper):
 
 
 class PlayerScraper(Scraper):
-    """This is the child class of the Scraper class responsible for scrapping player data."""
+    """This is the child class of the Scraper class responsible for scrapping player data.
+    
+    COMING SOON
+    """
 
     pass
 

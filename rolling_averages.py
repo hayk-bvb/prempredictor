@@ -2,17 +2,32 @@
 This file is responsible for housing the helper function rolling_averages for preds.py
 """
 
-def rolling_averages(group, cols, new_cols, num_matches):
-    """
-    This function is responsible for 
-    """
-    # Here we want to sort by date to look at the last 3 matches the team has played
-    group = group.sort_values("date")
+import pandas as pd
 
-    # We use closed='left' to indicate the method to not include the latest coloumn in the average. Similar to python list indexing [:3]
-    rolling_stats = group[cols].rolling(num_matches, closed='left').mean()
-    group[new_cols] = rolling_stats
-    # Remove rows with missing values to avoid errors
-    group = group.dropna(subset=new_cols)
+def add_rolling_averages(df, stats_columns, k=7):
+    """
+    Adds rolling averages to the DataFrame for the specified columns over the past k games.
+    
+    Parameters:
+        df (pd.DataFrame): The input DataFrame. Must contain 'team' and 'date' columns.
+        stats_columns (list): List of columns to compute rolling averages for.
+        k (int): The number of past games to consider for the rolling average.
+        
+    Returns:
+        pd.DataFrame: The DataFrame with rolling averages added.
+    """
+    # Ensure the date column is in datetime format for sorting
+    if not pd.api.types.is_datetime64_any_dtype(df["date"]):
+        df["date"] = pd.to_datetime(df["date"])
 
-    return group
+    # Group by team and apply rolling averages
+    df_with_rolling = (
+        df.groupby("team").apply(
+            lambda group: group.sort_values("date").assign(
+                **{f"{col}_rolling": group[col].rolling(k, min_periods=1).mean() for col in stats_columns}
+            )
+        )
+    )
+
+    # Reset the index to match the original DataFrame format
+    return df_with_rolling.reset_index(drop=True)

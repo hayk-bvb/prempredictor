@@ -27,7 +27,6 @@ class Scraper:
         
         Parameters:
             url (str): The URL to make the request to.
-            proxies (list): A list of proxy servers in the format 'http://proxy:port'.
             max_retries (int): Maximum number of retries on failure (default 5).
             backoff_factor (float): Multiplier for exponential backoff between retries (default 1).
             
@@ -57,6 +56,51 @@ class Scraper:
         df = pd.read_csv(filename)
         return df
 
+    def concat_CSVs(self, filename1, filename2, new_filename) -> None:
+        """A helper function used to combine CSVs together and save to another CSV."""
+        if new_filename[-4:] != ".csv":
+            raise Exception("Please enter correct filename ending with .csv")
+
+        # Read the two CSV files
+        df1 = pd.read_csv(filename1)
+        df2 = pd.read_csv(filename2)
+
+        # Concatenate the DataFrames, placing df1 data before df2
+        combined_df = pd.concat([df1, df2], ignore_index=True)
+
+        # Save the combined DataFrame to a new CSV file
+        combined_df.to_csv(f"{new_filename}", index=True)
+
+    def delete_column(self, filename, col_num, new_filename) -> None:
+        """Helper function used to delete a column from a CSV and then save it to a new CSV."""
+        if new_filename[-4:] != ".csv":
+            raise Exception("Please enter correct filename ending with .csv")
+        
+        df = pd.read_csv(filename)
+        first_column = df.columns[col_num]
+        # Delete first
+        df = df.drop([first_column], axis=1)
+        df.to_csv(f'{new_filename}', index=False)
+        return
+    
+    def merge_CSVs(self, filename1: str, filename2: str, how="inner") -> None:
+        """Helper function used to merge CSVs together and then save it to new CSV file."""
+
+        df1 = pd.read_csv(filename1)
+        df2 = pd.read_csv(filename2)
+
+        # Get the common columns between both CSVs
+        common_columns = list(set(df1.columns) & set(df2.columns))
+
+        # Merge only on the common columns without suffixes
+        merged_df = pd.merge(df1, df2, on=common_columns, how=how, suffixes=('', ''))
+
+        # Output the merged DataFrame to a new CSV
+        merged_df.to_csv("merged_output.csv", index=False)
+
+        # Save the merged DataFrame to a new CSV
+        merged_df.to_csv("merged_output.csv", index=False)
+        return
 
 
 class MatchScraper(Scraper):
@@ -222,52 +266,7 @@ class MatchScraper(Scraper):
         filtered = filtered[filtered["comp"] == "Premier League"]
         filtered.to_csv(f"{filename.split(".")[0]}_modified.csv", index=True)
         return
-    
-    def concat_CSVs(self, filename1, filename2, new_filename) -> None:
-        """A helper function used to combine CSVs together and save to another CSV."""
-        if new_filename[-4:] != ".csv":
-            raise Exception("Please enter correct filename ending with .csv")
 
-        # Read the two CSV files
-        df1 = pd.read_csv(filename1)
-        df2 = pd.read_csv(filename2)
-
-        # Concatenate the DataFrames, placing df1 data before df2
-        combined_df = pd.concat([df1, df2], ignore_index=True)
-
-        # Save the combined DataFrame to a new CSV file
-        combined_df.to_csv(f"{new_filename}", index=True)
-
-    def delete_column(self, filename, col_num, new_filename) -> None:
-        """Helper function used to delete a column from a CSV and then save it to a new CSV."""
-        if new_filename[-4:] != ".csv":
-            raise Exception("Please enter correct filename ending with .csv")
-        
-        df = pd.read_csv(filename)
-        first_column = df.columns[col_num]
-        # Delete first
-        df = df.drop([first_column], axis=1)
-        df.to_csv(f'{new_filename}', index=False)
-        return
-    
-    def merge_CSVs(self, filename1: str, filename2: str, how="inner") -> None:
-        """Helper function used to merge CSVs together and then save it to new CSV file."""
-
-        df1 = pd.read_csv(filename1)
-        df2 = pd.read_csv(filename2)
-
-        # Get the common columns between both CSVs
-        common_columns = list(set(df1.columns) & set(df2.columns))
-
-        # Merge only on the common columns without suffixes
-        merged_df = pd.merge(df1, df2, on=common_columns, how=how, suffixes=('', ''))
-
-        # Output the merged DataFrame to a new CSV
-        merged_df.to_csv("merged_output.csv", index=False)
-
-        # Save the merged DataFrame to a new CSV
-        merged_df.to_csv("merged_output.csv", index=False)
-        return
 
 
 class PlayerScraper(Scraper):

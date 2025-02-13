@@ -7,7 +7,6 @@ from bs4 import BeautifulSoup
 import datetime
 import pandas as pd
 from io import StringIO
-import random
 
 
 class Scraper:
@@ -73,7 +72,7 @@ class MatchScraper(Scraper):
 
 
     def get_shooting_stats(self) -> None:
-
+        """Method which is responsible for scraping the shooting stats per team and downloading CSV file into directory."""
         try:
             for year in self.years:                
                 data = self.get_request(self.match_url)
